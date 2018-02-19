@@ -44,6 +44,10 @@ header {
     padding-top: 20px;
 }
 
+.site-logo img {
+    width: 300px;
+}
+
 .social-media-icons {
     color: #5698ac;
     -webkit-filter: drop-shadow( 5px 5px 5px #000 );

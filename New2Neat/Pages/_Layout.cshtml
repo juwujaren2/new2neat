@@ -7,10 +7,11 @@
 
     <environment include="Development">
         <!-- FONT LINKS -->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic,800,800italic|Source+Sans+Pro:400,300,300italic,400italic,600,600italic,700,700italic,900,900italic|Alegreya+Sans:400,300,300italic,400italic,500,500italic,700,700italic,800,800italic,900,900italic|Poiret+One|Dosis:400,500,300,600,700,800|Lobster+Two:400,400italic,700,700italic|Raleway:400,300,300italic,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Roboto+Condensed:400,300italic,300,400italic,700,700italic|Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic|Courgette">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic,800,800italic|Source+Sans+Pro:400,300,300italic,400italic,600,600italic,700,700italic,900,900italic|Alegreya+Sans:400,300,300italic,400italic,500,500italic,700,700italic,800,800italic,900,900italic|Poiret+One|Dosis:400,500,300,600,700,800|Lobster+Two:400,400italic,700,700italic|Raleway:400,300,300italic,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Roboto+Condensed:400,300italic,300,400italic,700,700italic|Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic|Courgette">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,900">
 
         <!--STYLE LINKS -->
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -35,7 +36,8 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700">
-        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic,800,800italic|Source+Sans+Pro:400,300,300italic,400italic,600,600italic,700,700italic,900,900italic|Alegreya+Sans:400,300,300italic,400italic,500,500italic,700,700italic,800,800italic,900,900italic|Poiret+One|Dosis:400,500,300,600,700,800|Lobster+Two:400,400italic,700,700italic|Raleway:400,300,300italic,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Roboto+Condensed:400,300italic,300,400italic,700,700italic|Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic|Courgette">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic,800,800italic|Source+Sans+Pro:400,300,300italic,400italic,600,600italic,700,700italic,900,900italic|Alegreya+Sans:400,300,300italic,400italic,500,500italic,700,700italic,800,800italic,900,900italic|Poiret+One|Dosis:400,500,300,600,700,800|Lobster+Two:400,400italic,700,700italic|Raleway:400,300,300italic,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Roboto+Condensed:400,300italic,300,400italic,700,700italic|Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic|Courgette">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,900">
 
         <!--STYLE LINKS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -53,6 +55,10 @@
         <link rel="stylesheet" href="~/lib/info-boxes-grid/dist/css/themes/designer-widget-settings.min.css">
         <link rel="stylesheet" href="~/lib/info-boxes-grid/dist/css/themes/designer-widget-theme.min.css">
         <link rel="stylesheet" href="~/lib/info-boxes-grid/dist/css/designer-widget-responsive.min.css">
+        <link rel="stylesheet" href="~/lib/testimonials-widget/dist/css/designer-widget-structure.min.css">
+        <link rel="stylesheet" href="~/lib/testimonials-widget/dist/css/themes/designer-widget-settings.min.css">
+        <link rel="stylesheet" href="~/lib/testimonials-widget/dist/css/themes/designer-widget-theme.min.css">
+        <link rel="stylesheet" href="~/lib/testimonials-widget/dist/css/designer-widget-responsive.min.css">
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
     </environment>
 </head>
@@ -74,7 +80,8 @@
             </div>
             <div class="row header-brand-row">
                 <div class="site-logo pull-left col-md-6">
-                    <img src="~/images/logo.png" alt="New2Neat Company Logo" />
+                    @*<object data="~/images/New2NeatLogo.svg" type="image/svg+xml"></object>*@
+                    <img src="~/images/New2NeatLogo.svg" alt="New2Neat Company Logo" />
                 </div>
                 <div class="site-navigation pull-left text-right col-md-6">
                     <nav>
