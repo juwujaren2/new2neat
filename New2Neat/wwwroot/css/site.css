@@ -12,8 +12,8 @@ body {
 }
 
 .header-contact-row, .header-brand-row, .header-text, .header-buttons-row, .testimonials-block, .services-row, .about-heading, .about-row, .contact-row, footer {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 #about h2, #services h2, #testimonials h2 {
@@ -63,6 +63,14 @@ header {
 .social-media-icons a:hover {
     color: #51cef5;
     text-decoration: none;
+}
+
+.bbb-logo {
+    margin-top: -10px;
+}
+.ncoc-logo img {
+    margin-top: -10px;
+    border: #0ba1ce solid 2px;
 }
 
 .header-brand-row {
