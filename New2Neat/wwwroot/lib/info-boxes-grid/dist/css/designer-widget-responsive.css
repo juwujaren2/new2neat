@@ -1,0 +1,77 @@
+/*
+    Description: 	Designer Framework Flat
+    Author: 		InsideLab
+    Version: 		1.0
+*/
+
+/*	--------------------------------------------------
+	:: TABLET PORTRAIT DESIGN WIDTH 1200PX
+	-------------------------------------------------- */
+
+    @media only screen and (min-width:960px) and (max-width:1199px) {
+		
+        .designer-widget-wrapper { width:100%; }
+		
+		.info-boxes-widget-default.info-boxes-widget-light .info-boxes-widget-description.info-boxes-widget-borderbres{
+			border-bottom:1px solid #e0e5e5;
+		}
+		
+		.info-boxes-widget-default.info-boxes-widget-light .info-boxes-widget-description.info-boxes-widget-borderr{
+			border-right:none;
+		}
+		       
+    }
+
+/*	--------------------------------------------------
+	:: TABLET PORTRAIT DESIGN WIDTH 960PX
+	-------------------------------------------------- */
+
+    @media only screen and (min-width:768px) and (max-width:959px) {
+		
+        .designer-widget-wrapper { width:100%; }
+		
+		.info-boxes-widget-default.info-boxes-widget-light .info-boxes-widget-description.info-boxes-widget-borderbres{
+			border-bottom:1px solid #e0e5e5;
+		}
+		
+		.info-boxes-widget-default.info-boxes-widget-light .info-boxes-widget-description.info-boxes-widget-borderr{
+			border-right:none;
+		}
+		       
+    }
+
+/*	--------------------------------------------------
+	:: TABLET LANDSCAPE DESIGN WIDTH 420PX
+	-------------------------------------------------- */
+
+    @media only screen and (min-width:480px) and (max-width:767px) {
+		
+        .designer-widget-wrapper { width:100%; }
+		
+		.info-boxes-widget-default.info-boxes-widget-light .info-boxes-widget-description.info-boxes-widget-borderbres{
+			border-bottom:1px solid #e0e5e5;
+		}
+		
+		.info-boxes-widget-default.info-boxes-widget-light .info-boxes-widget-description.info-boxes-widget-borderr{
+			border-right:none;
+		}
+		
+    }
+
+/*	--------------------------------------------------
+	:: TABLET PORTRAIT DESIGN WIDTH 300PX
+	-------------------------------------------------- */
+
+    @media only screen and (max-width:479px) {
+		
+        .designer-widget-wrapper { width:100%; }
+		
+		.info-boxes-widget-default.info-boxes-widget-light .info-boxes-widget-description.info-boxes-widget-borderbres{
+			border-bottom:1px solid #e0e5e5;
+		}
+		
+		.info-boxes-widget-default.info-boxes-widget-light .info-boxes-widget-description.info-boxes-widget-borderr{
+			border-right:none;
+		}
+				
+    }

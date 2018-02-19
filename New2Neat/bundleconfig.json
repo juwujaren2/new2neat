@@ -1,0 +1,154 @@
+// Configure bundling and minification for the project.
+// More info at https://go.microsoft.com/fwlink/?LinkId=808241
+[
+    {
+        "outputFileName": "wwwroot/css/site.min.css",
+        // An array of relative input file paths. Globbing patterns supported
+        "inputFiles": [
+            "wwwroot/css/site.css"
+        ]
+    },
+    {
+        "outputFileName": "wwwroot/lib/hover-effects-framework/dist/css/hover-widget-responsive.min.css",
+        // An array of relative input file paths. Globbing patterns supported
+        "inputFiles": [
+            "wwwroot/lib/hover-effects-framework/dist/css/hover-widget-responsive.css"
+        ]
+    },
+    {
+        "outputFileName": "wwwroot/lib/hover-effects-framework/dist/css/hover-widget-structure.min.css",
+        // An array of relative input file paths. Globbing patterns supported
+        "inputFiles": [
+            "wwwroot/lib/hover-effects-framework/dist/css/hover-widget-structure.css"
+        ]
+    },
+    {
+        "outputFileName": "wwwroot/lib/hover-effects-framework/dist/css/themes/hover-widget-animations.min.css",
+        // An array of relative input file paths. Globbing patterns supported
+        "inputFiles": [
+            "wwwroot/lib/hover-effects-framework/dist/css/themes/hover-widget-animations.css"
+        ]
+    },
+    {
+        "outputFileName": "wwwroot/lib/hover-effects-framework/dist/css/themes/hover-widget-settings.min.css",
+        // An array of relative input file paths. Globbing patterns supported
+        "inputFiles": [
+            "wwwroot/lib/hover-effects-framework/dist/css/themes/hover-widget-settings.css"
+        ]
+    },
+    {
+        "outputFileName": "wwwroot/lib/hover-effects-framework/dist/css/themes/hover-widget-theme.min.css",
+        // An array of relative input file paths. Globbing patterns supported
+        "inputFiles": [
+            "wwwroot/lib/hover-effects-framework/dist/css/themes/hover-widget-theme.css"
+        ]
+    },
+    {
+        "outputFileName": "wwwroot/lib/info-boxes-grid/dist/css/designer-widget-responsive.min.css",
+        // An array of relative input file paths. Globbing patterns supported
+        "inputFiles": [
+            "wwwroot/lib/info-boxes-grid/dist/css/designer-widget-responsive.css"
+        ]
+    },
+    {
+        "outputFileName": "wwwroot/lib/info-boxes-grid/dist/css/designer-widget-structure.min.css",
+        // An array of relative input file paths. Globbing patterns supported
+        "inputFiles": [
+            "wwwroot/lib/info-boxes-grid/dist/css/designer-widget-structure.css"
+        ]
+    },
+    {
+        "outputFileName": "wwwroot/lib/info-boxes-grid/dist/css/themes/designer-widget-settings.min.css",
+        // An array of relative input file paths. Globbing patterns supported
+        "inputFiles": [
+            "wwwroot/lib/info-boxes-grid/dist/css/themes/designer-widget-settings.css"
+        ]
+    },
+    {
+        "outputFileName": "wwwroot/lib/info-boxes-grid/dist/css/themes/designer-widget-theme.min.css",
+        // An array of relative input file paths. Globbing patterns supported
+        "inputFiles": [
+            "wwwroot/lib/info-boxes-grid/dist/css/themes/designer-widget-theme.css"
+        ]
+    },
+    {
+        "outputFileName": "wwwroot/lib/testimonials-widget/dist/css/designer-widget-responsive.min.css",
+        // An array of relative input file paths. Globbing patterns supported
+        "inputFiles": [
+            "wwwroot/lib/testimonials-widget/dist/css/designer-widget-responsive.css"
+        ]
+    },
+    {
+        "outputFileName": "wwwroot/lib/testimonials-widget/dist/css/designer-widget-structure.min.css",
+        // An array of relative input file paths. Globbing patterns supported
+        "inputFiles": [
+            "wwwroot/lib/testimonials-widget/dist/css/designer-widget-structure.css"
+        ]
+    },
+    {
+        "outputFileName": "wwwroot/lib/testimonials-widget/dist/css/themes/designer-widget-settings.min.css",
+        // An array of relative input file paths. Globbing patterns supported
+        "inputFiles": [
+            "wwwroot/lib/testimonials-widget/dist/css/themes/designer-widget-settings.css"
+        ]
+    },
+    {
+        "outputFileName": "wwwroot/lib/testimonials-widget/dist/css/themes/designer-widget-theme.min.css",
+        // An array of relative input file paths. Globbing patterns supported
+        "inputFiles": [
+            "wwwroot/lib/testimonials-widget/dist/css/themes/designer-widget-theme.css"
+        ]
+    },
+    {
+        "outputFileName": "wwwroot/js/site.min.js",
+        "inputFiles": [
+            "wwwroot/js/site.js"
+        ],
+        // Optionally specify minification options
+        "minify": {
+            "enabled": true,
+            "renameLocals": true
+        },
+        // Optionally generate .map file
+        "sourceMap": false
+    },
+    {
+        "outputFileName": "wwwroot/lib/jquery-customizer/dist/jquery-customizer.min.js",
+        "inputFiles": [
+            "wwwroot/lib/jquery-customizer/dist/jquery-customizer.js"
+        ],
+        // Optionally specify minification options
+        "minify": {
+            "enabled": true,
+            "renameLocals": true
+        },
+        // Optionally generate .map file
+        "sourceMap": false
+    },
+    {
+        "outputFileName": "wwwroot/lib/jquery-events-touch/dist/jquery-events-touch.min.js",
+        "inputFiles": [
+            "wwwroot/lib/jquery-events-touch/dist/jquery-events-touch.js"
+        ],
+        // Optionally specify minification options
+        "minify": {
+            "enabled": true,
+            "renameLocals": true
+        },
+        // Optionally generate .map file
+        "sourceMap": false
+    },
+    {
+        "outputFileName": "wwwroot/lib/jquery-lightcase/dist/jquery-lightcase.min.js",
+        "inputFiles": [
+            "wwwroot/lib/jquery-lightcase/dist/jquery-lightcase.js"
+        ],
+        // Optionally specify minification options
+        "minify": {
+            "enabled": true,
+            "renameLocals": true
+        },
+        // Optionally generate .map file
+        "sourceMap": false
+    }
+]

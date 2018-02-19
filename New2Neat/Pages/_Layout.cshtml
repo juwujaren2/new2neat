@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - New2Neat</title>
+
+    <environment include="Development">
+        <!-- FONT LINKS -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic,800,800italic|Source+Sans+Pro:400,300,300italic,400italic,600,600italic,700,700italic,900,900italic|Alegreya+Sans:400,300,300italic,400italic,500,500italic,700,700italic,800,800italic,900,900italic|Poiret+One|Dosis:400,500,300,600,700,800|Lobster+Two:400,400italic,700,700italic|Raleway:400,300,300italic,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Roboto+Condensed:400,300italic,300,400italic,700,700italic|Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic|Courgette">
+
+        <!--STYLE LINKS -->
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/lib/Font-Awesome/css/font-awesome.css" />
+        <link rel="stylesheet" href="~/lib/hover-effects-framework/dist/css/hover-widget-structure.css">
+        <link rel="stylesheet" href="~/lib/hover-effects-framework/dist/css/themes/hover-widget-settings.css">
+        <link rel="stylesheet" href="~/lib/hover-effects-framework/dist/css/themes/hover-widget-theme.css">
+        <link rel="stylesheet" href="~/lib/hover-effects-framework/dist/css/themes/hover-widget-animations.css">
+        <link rel="stylesheet" href="~/lib/hover-effects-framework/dist/css/hover-widget-responsive.css">
+        <link rel="stylesheet" href="~/lib/info-boxes-grid/dist/css/designer-widget-structure.css">
+        <link rel="stylesheet" href="~/lib/info-boxes-grid/dist/css/themes/designer-widget-settings.css">
+        <link rel="stylesheet" href="~/lib/info-boxes-grid/dist/css/themes/designer-widget-theme.css">
+        <link rel="stylesheet" href="~/lib/info-boxes-grid/dist/css/designer-widget-responsive.css">
+        <link rel="stylesheet" href="~/lib/testimonials-widget/dist/css/designer-widget-structure.css">
+        <link rel="stylesheet" href="~/lib/testimonials-widget/dist/css/themes/designer-widget-settings.css">
+        <link rel="stylesheet" href="~/lib/testimonials-widget/dist/css/themes/designer-widget-theme.css">
+        <link rel="stylesheet" href="~/lib/testimonials-widget/dist/css/designer-widget-responsive.css">
+        <link rel="stylesheet" href="~/css/site.css" />
+    </environment>
+    <environment exclude="Development">
+        <!-- FONT LINKS -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic,800,800italic|Source+Sans+Pro:400,300,300italic,400italic,600,600italic,700,700italic,900,900italic|Alegreya+Sans:400,300,300italic,400italic,500,500italic,700,700italic,800,800italic,900,900italic|Poiret+One|Dosis:400,500,300,600,700,800|Lobster+Two:400,400italic,700,700italic|Raleway:400,300,300italic,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Roboto+Condensed:400,300italic,300,400italic,700,700italic|Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic|Courgette">
+
+        <!--STYLE LINKS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+              asp-fallback-href="~/lib/Font-Awesome/css/font-awesome.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/lib/hover-effects-framework/dist/css/hover-widget-structure.min.css">
+        <link rel="stylesheet" href="~/lib/hover-effects-framework/dist/css/themes/hover-widget-settings.min.css">
+        <link rel="stylesheet" href="~/lib/hover-effects-framework/dist/css/themes/hover-widget-theme.min.css">
+        <link rel="stylesheet" href="~/lib/hover-effects-framework/dist/css/themes/hover-widget-animations.min.css">
+        <link rel="stylesheet" href="~/lib/hover-effects-framework/dist/css/hover-widget-responsive.min.css">
+        <link rel="stylesheet" href="~/lib/info-boxes-grid/dist/css/designer-widget-structure.min.css">
+        <link rel="stylesheet" href="~/lib/info-boxes-grid/dist/css/themes/designer-widget-settings.min.css">
+        <link rel="stylesheet" href="~/lib/info-boxes-grid/dist/css/themes/designer-widget-theme.min.css">
+        <link rel="stylesheet" href="~/lib/info-boxes-grid/dist/css/designer-widget-responsive.min.css">
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+    </environment>
+</head>
+<body>
+    <div class="container-fluid">
+        <header>
+            <div class="row header-contact-row">
+                <div class="phone-email pull-left col-md-6">
+                    <p>Phone: 770-286-1655 | Email: new2neat@gmail.com</p>
+                </div>
+                <div class="social-media-icons pull-left text-right col-md-6">
+                    <p>
+                        <a href="https://www.facebook.com/New2Neat/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="https://plus.google.com/+ANewtoNeatCleaningCompanyCovington" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>                        
+                        @*<i class="fa fa-instagram" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>*@
+                    </p>
+                </div>
+            </div>
+            <div class="row header-brand-row">
+                <div class="site-logo pull-left col-md-6">
+                    <img src="~/images/logo.png" alt="New2Neat Company Logo" />
+                </div>
+                <div class="site-navigation pull-left text-right col-md-6">
+                    <nav>
+                        <ul>
+                            <li><a href="#about">About | </a></li>
+                            <li><a href="#services">Services | </a></li>
+                            <li><a href="#testimonials">Testimonials | </a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="row header-text">
+                <div class="col-md-12">
+                    <h1>A New 2 Neat Cleaning</h1>
+                    <h2>We love what we do and our clients do too!</h2>
+                </div>
+            </div>
+            <div class="row header-buttons-row">
+                <div class="header-buttons col-md-12">
+                    <button type="button" class="btn btn-primary">Learn More</button>
+                    <button type="button" class="btn btn-secondary">Request a Quote</button>
+                    <button type="button" class="btn btn-danger">Book Appointment</button>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="container-fluid body-content">
+        @RenderBody()
+        <section id="contact">
+            <div class="row contact-row">
+                <div class="contact-item col-md-4">
+                    <h5>Hours of Operation</h5>
+                    <div class="hours">
+                        <i class="fa fa-clock-o fa-3x fa-pull-left" aria-hidden="true"></i>
+                        <p>
+                            Mon-Fri: 9:00 AM - 10:00 PM<br />
+                            Sat-Sun: 9:00 AM - 5:00 PM
+                        </p>
+                    </div>
+                </div>
+                <div class="contact-item col-md-4">
+                    <h5>Location</h5>
+                    <div class="location">
+                        <i class="fa fa-compass fa-3x fa-pull-left" aria-hidden="true"></i>
+                        <p>
+                            11149 Washington Street<br />
+                            Covington, Georgia 30014
+                        </p>
+                    </div>
+                </div>
+                <div class="contact-item col-md-4">
+                    <h5>Contact</h5>
+                    <div class="communication">
+                        <i class="fa fa-address-card fa-3x fa-pull-left" aria-hidden="true"></i>
+                        <p>
+                            Phone: (770) 286-1655<br />
+                            Email: new2neat@gmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="row-footer-row">
+                <div class="copyright">
+                    <p><i class="fa fa-copyright"></i> 2018, A New2Neat Cleaning Company</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/popper.js/dist/umd/popper.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                asp-fallback-src="~/lib/popper.js/dist/umd/popper.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q">
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl">
+        </script>
+        <script src="~/js/site.min.js" asp-append-version="true"></script>
+    </environment>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
