@@ -18,11 +18,12 @@ body {
 
 #about h2, #services h2, #testimonials h2 {
     color: #4b5b68;
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 47px;
     font-weight: bold;
-    text-align: center;
     padding-top: 25px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 /*	--------------------------------------------------
@@ -33,7 +34,7 @@ body {
     background: url('../images/homepage.png');
     background-size: cover;
     font-family: 'Titillium Web', sans-serif;
-    height: 800px;
+    height: 950px;
 }
 .alt-header {
     background: none;
@@ -42,10 +43,15 @@ body {
 .header-contact-row {
     background: #054c61;
     color: #fff;
-    font-size: 18px;
-    font-weight: bold;
     padding-top: 20px;
 }
+    .header-contact-row .phone-email h4 {
+        font-family: "Raleway";
+        font-weight: bold;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 20px;
+    }
 
 .social-media-icons {
     color: #5698ac;
@@ -85,15 +91,17 @@ body {
     }
 
 header .header-text {
-    padding-top: 20%;
+    padding-top: 25%;
     text-shadow: 2px 2px 2px #000;
 }
 
 header h2 {
     color: #fff;
-    font-size: 60px;
+    font-size: 55px;
+    font-family: 'Raleway', sans-serif;
     font-weight: bold;
     text-align: center;
+    text-transform: uppercase;
 }
 
 header .header-buttons {
