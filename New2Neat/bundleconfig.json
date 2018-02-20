@@ -9,94 +9,90 @@
         ]
     },
     {
-        "outputFileName": "wwwroot/lib/hover-effects-framework/dist/css/hover-widget-responsive.min.css",
+        "outputFileName": "wwwroot/css/hover-widget.css",
         // An array of relative input file paths. Globbing patterns supported
         "inputFiles": [
-            "wwwroot/lib/hover-effects-framework/dist/css/hover-widget-responsive.css"
-        ]
-    },
-    {
-        "outputFileName": "wwwroot/lib/hover-effects-framework/dist/css/hover-widget-structure.min.css",
-        // An array of relative input file paths. Globbing patterns supported
-        "inputFiles": [
-            "wwwroot/lib/hover-effects-framework/dist/css/hover-widget-structure.css"
-        ]
-    },
-    {
-        "outputFileName": "wwwroot/lib/hover-effects-framework/dist/css/themes/hover-widget-animations.min.css",
-        // An array of relative input file paths. Globbing patterns supported
-        "inputFiles": [
-            "wwwroot/lib/hover-effects-framework/dist/css/themes/hover-widget-animations.css"
-        ]
-    },
-    {
-        "outputFileName": "wwwroot/lib/hover-effects-framework/dist/css/themes/hover-widget-settings.min.css",
-        // An array of relative input file paths. Globbing patterns supported
-        "inputFiles": [
-            "wwwroot/lib/hover-effects-framework/dist/css/themes/hover-widget-settings.css"
-        ]
-    },
-    {
-        "outputFileName": "wwwroot/lib/hover-effects-framework/dist/css/themes/hover-widget-theme.min.css",
-        // An array of relative input file paths. Globbing patterns supported
-        "inputFiles": [
+            "wwwroot/lib/hover-effects-framework/dist/css/hover-widget-responsive.css",
+            "wwwroot/lib/hover-effects-framework/dist/css/hover-widget-structure.css",
+            "wwwroot/lib/hover-effects-framework/dist/css/themes/hover-widget-animations.css",
+            "wwwroot/lib/hover-effects-framework/dist/css/themes/hover-widget-settings.css",
             "wwwroot/lib/hover-effects-framework/dist/css/themes/hover-widget-theme.css"
         ]
     },
     {
-        "outputFileName": "wwwroot/lib/info-boxes-grid/dist/css/designer-widget-responsive.min.css",
+        "outputFileName": "wwwroot/css/hover-widget.min.css",
         // An array of relative input file paths. Globbing patterns supported
         "inputFiles": [
-            "wwwroot/lib/info-boxes-grid/dist/css/designer-widget-responsive.css"
+            "wwwroot/css/hover-widget.css"
         ]
     },
     {
-        "outputFileName": "wwwroot/lib/info-boxes-grid/dist/css/designer-widget-structure.min.css",
+        "outputFileName": "wwwroot/css/info-boxes.css",
         // An array of relative input file paths. Globbing patterns supported
         "inputFiles": [
-            "wwwroot/lib/info-boxes-grid/dist/css/designer-widget-structure.css"
-        ]
-    },
-    {
-        "outputFileName": "wwwroot/lib/info-boxes-grid/dist/css/themes/designer-widget-settings.min.css",
-        // An array of relative input file paths. Globbing patterns supported
-        "inputFiles": [
-            "wwwroot/lib/info-boxes-grid/dist/css/themes/designer-widget-settings.css"
-        ]
-    },
-    {
-        "outputFileName": "wwwroot/lib/info-boxes-grid/dist/css/themes/designer-widget-theme.min.css",
-        // An array of relative input file paths. Globbing patterns supported
-        "inputFiles": [
+            "wwwroot/lib/info-boxes-grid/dist/css/designer-widget-responsive.css",
+            "wwwroot/lib/info-boxes-grid/dist/css/designer-widget-structure.css",
+            "wwwroot/lib/info-boxes-grid/dist/css/themes/designer-widget-settings.css",
             "wwwroot/lib/info-boxes-grid/dist/css/themes/designer-widget-theme.css"
         ]
     },
     {
-        "outputFileName": "wwwroot/lib/testimonials-widget/dist/css/designer-widget-responsive.min.css",
+        "outputFileName": "wwwroot/css/info-boxes.min.css",
         // An array of relative input file paths. Globbing patterns supported
         "inputFiles": [
-            "wwwroot/lib/testimonials-widget/dist/css/designer-widget-responsive.css"
+            "wwwroot/css/info-boxes.css"
         ]
     },
     {
-        "outputFileName": "wwwroot/lib/testimonials-widget/dist/css/designer-widget-structure.min.css",
+        "outputFileName": "wwwroot/css/testimonials-widget.css",
         // An array of relative input file paths. Globbing patterns supported
         "inputFiles": [
-            "wwwroot/lib/testimonials-widget/dist/css/designer-widget-structure.css"
-        ]
-    },
-    {
-        "outputFileName": "wwwroot/lib/testimonials-widget/dist/css/themes/designer-widget-settings.min.css",
-        // An array of relative input file paths. Globbing patterns supported
-        "inputFiles": [
-            "wwwroot/lib/testimonials-widget/dist/css/themes/designer-widget-settings.css"
-        ]
-    },
-    {
-        "outputFileName": "wwwroot/lib/testimonials-widget/dist/css/themes/designer-widget-theme.min.css",
-        // An array of relative input file paths. Globbing patterns supported
-        "inputFiles": [
+            "wwwroot/lib/testimonials-widget/dist/css/designer-widget-responsive.css",
+            "wwwroot/lib/testimonials-widget/dist/css/designer-widget-structure.css",
+            "wwwroot/lib/testimonials-widget/dist/css/themes/designer-widget-settings.css",
             "wwwroot/lib/testimonials-widget/dist/css/themes/designer-widget-theme.css"
+        ]
+    },
+    {
+        "outputFileName": "wwwroot/css/testimonials-widget.min.css",
+        // An array of relative input file paths. Globbing patterns supported
+        "inputFiles": [
+            "wwwroot/css/testimonials-widget.css"
+        ]
+    },
+    {
+        "outputFileName": "wwwroot/css/menu.css",
+        // An array of relative input file paths. Globbing patterns supported
+        "inputFiles": [
+            "wwwroot/lib/menu/dist/css/designer-widget-responsive.css",
+            "wwwroot/lib/menu/dist/css/designer-widget-structure.css",
+            "wwwroot/lib/menu/dist/css/themes/designer-widget-animations.css",
+            "wwwroot/lib/menu/dist/css/themes/designer-widget-settings.css",
+            "wwwroot/lib/menu/dist/css/themes/designer-widget-theme.css"
+        ]
+    },
+    {
+        "outputFileName": "wwwroot/css/menu.min.css",
+        // An array of relative input file paths. Globbing patterns supported
+        "inputFiles": [
+            "wwwroot/css/menu.css"
+        ]
+    },
+    {
+        "outputFileName": "wwwroot/css/contact.css",
+        // An array of relative input file paths. Globbing patterns supported
+        "inputFiles": [
+            "wwwroot/lib/contact/dist/css/contact-widget-responsive.css",
+            "wwwroot/lib/contact/dist/css/contact-widget-structure.css",
+            "wwwroot/lib/contact/dist/css/themes/contact-widget-settings.css",
+            "wwwroot/lib/contact/dist/css/themes/contact-widget-theme.css"
+        ]
+    },
+    {
+        "outputFileName": "wwwroot/css/contact.min.css",
+        // An array of relative input file paths. Globbing patterns supported
+        "inputFiles": [
+            "wwwroot/css/contact.css"
         ]
     },
     {
@@ -113,9 +109,61 @@
         "sourceMap": false
     },
     {
-        "outputFileName": "wwwroot/lib/jquery-customizer/dist/jquery-customizer.min.js",
+        "outputFileName": "wwwroot/lib/jquery-customize/dist/jquery-customize.min.js",
         "inputFiles": [
-            "wwwroot/lib/jquery-customizer/dist/jquery-customizer.js"
+            "wwwroot/lib/jquery-customize/dist/jquery-customize.js"
+        ],
+        // Optionally specify minification options
+        "minify": {
+            "enabled": true,
+            "renameLocals": true
+        },
+        // Optionally generate .map file
+        "sourceMap": false
+    },
+    {
+        "outputFileName": "wwwroot/lib/jquery-form/dist/jquery-form.min.js",
+        "inputFiles": [
+            "wwwroot/lib/jquery-form/dist/jquery-form.js"
+        ],
+        // Optionally specify minification options
+        "minify": {
+            "enabled": true,
+            "renameLocals": true
+        },
+        // Optionally generate .map file
+        "sourceMap": false
+    },
+    {
+        "outputFileName": "wwwroot/lib/jquery-methods/dist/jquery-methods.min.js",
+        "inputFiles": [
+            "wwwroot/lib/jquery-methods/dist/jquery-methods.js"
+        ],
+        // Optionally specify minification options
+        "minify": {
+            "enabled": true,
+            "renameLocals": true
+        },
+        // Optionally generate .map file
+        "sourceMap": false
+    },
+    {
+        "outputFileName": "wwwroot/lib/jquery-placeholder/dist/jquery-placeholder.min.js",
+        "inputFiles": [
+            "wwwroot/lib/jquery-placeholder/dist/jquery-placeholder.js"
+        ],
+        // Optionally specify minification options
+        "minify": {
+            "enabled": true,
+            "renameLocals": true
+        },
+        // Optionally generate .map file
+        "sourceMap": false
+    },
+    {
+        "outputFileName": "wwwroot/lib/jquery-validate/dist/jquery-validate.min.js",
+        "inputFiles": [
+            "wwwroot/lib/jquery-validate/dist/jquery-validate.js"
         ],
         // Optionally specify minification options
         "minify": {

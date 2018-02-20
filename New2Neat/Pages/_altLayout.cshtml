@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container-fluid">
-        <header class="main-header">
+        <header class="alt-header">
             <div class="row header-contact-row">
                 <div class="phone-email pull-left col-md-6">
                     <p>Phone: 770-286-1655 | Email: new2neat@gmail.com</p>
@@ -40,38 +40,15 @@
                         <div class="menu-widget-item menu-widget-left shine">
                             <a href="/" class="menu-widget-logo"><i class="icon-broom"></i>New<span>2</span>Neat</a>
                         </div>
-                        <div class="menu-widget-item">
-                            <a href="#about"><i class="icon-user"></i>About</a>
-                        </div>
-                        <div class="menu-widget-item">
-                            <a href="#services"><i class="icon-office"></i>Services</a>
-                        </div>
-                        <div class="menu-widget-item">
-                            <a href="#testimonials"><i class="icon-bubble-dots4"></i>Testimonials</a>
-                        </div>
-                        <div class="menu-widget-item">
-                            <a href="/contact"><i class="icon-phone"></i>Contact</a>
-                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="row header-text">
-                <div class="col-md-12">
-                    <h2>We love what we do and our clients do too!</h2>
-                </div>
-            </div>
-            <div class="row header-buttons-row">
-                <div class="header-buttons col-md-12">
-                    <a class="btn btn-primary" href="/Contact"><i class="icomoon-info"></i> Learn More</a>
-                    <a class="btn btn-danger" href="/Contact"><i class="icomoon-bubble-dots4"></i> Request a Quote</a>
-                </div>
-            </div>
         </header>
     </div>
     <div class="container-fluid body-content">
         @RenderBody()
-    @Html.Partial("_FooterPartial")
+        @Html.Partial("_FooterPartial")
     </div>
     @Html.Partial("_ScriptsPartial")
     @RenderSection("Scripts", required: false)

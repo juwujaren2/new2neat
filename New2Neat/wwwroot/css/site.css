@@ -29,23 +29,22 @@ body {
 	:: HEADER SECTION
 	-------------------------------------------------- */
 
-header {
+.main-header {
     background: url('../images/homepage.png');
     background-size: cover;
     font-family: 'Titillium Web', sans-serif;
-    height: 950px;
+    height: 800px;
 }
-
+.alt-header {
+    background: none;
+    height: auto;
+}
 .header-contact-row {
     background: #054c61;
     color: #fff;
     font-size: 18px;
     font-weight: bold;
     padding-top: 20px;
-}
-
-.site-logo img {
-    width: 300px;
 }
 
 .social-media-icons {
@@ -72,23 +71,17 @@ header {
     margin-top: -10px;
     border: #0ba1ce solid 2px;
 }
-
-.header-brand-row {
-    background: #fff;
-    padding-top: 25px;
-    padding-bottom: 25px;
+.menu-widget .menu-widget-wrapper .menu-widget-item > a.menu-widget-logo {
+    color: #51cef5;
+    font-size: 36px;
+    padding: 0 20px;
 }
-
-nav ul li {
-    display: inline-block;
-}
-
-    nav ul li a {
-        color: #666666;
-        font-size: 16px;
-        font-weight: bold;
-        text-transform: uppercase;
-        text-decoration: none;
+    .menu-widget .menu-widget-wrapper .menu-widget-item > a.menu-widget-logo i {
+        font-size: 36px;
+    }
+    .menu-widget .menu-widget-wrapper .menu-widget-item > a.menu-widget-logo span {
+        color: #ed7066;
+        font-size: 42px;
     }
 
 header .header-text {
@@ -188,9 +181,13 @@ header .btn {
         padding: 10px;
     }
 
-    #contact .contact-item .fa-pull-left {
-        width: 50px !important;
-    }
+.contact-widget-default.contact-widget-light .contact-widget-header i {
+    color: #51cef5;
+}
+
+.contact-widget-container {
+    margin: 10px auto;
+}
 
 /*	--------------------------------------------------
 	:: FOOTER SECTION
@@ -209,6 +206,30 @@ footer {
     footer .copyright {
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+
+/*	--------------------------------------------------
+	:: SCROLL TO TOP BUTTON
+	-------------------------------------------------- */
+
+#scrollBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #ed7066;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+    #scrollBtn:hover {
+        background-color: #4b5b68;
     }
 
 /*	--------------------------------------------------
@@ -347,6 +368,10 @@ footer {
     .info-boxes-widget-default.info-boxes-widget-blue .info-boxes-widget-description .info-boxes-widget-media:before {
         box-shadow: 0 0 0 4px #1592b7;
     }
+
+/*	--------------------------------------------------
+	:: Testimonials Widget Override Styles
+	-------------------------------------------------- */
 
 .testimonials-widget-default.testimonials-widget-light .testimonials-widget-section blockquote p {
     color: #70828f;

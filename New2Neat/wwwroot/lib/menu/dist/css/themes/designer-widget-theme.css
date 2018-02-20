@@ -1,0 +1,97 @@
+/*
+    Description: 	Designer Framework Flat
+    Author: 		InsideLab
+    Version: 		1.0
+*/
+
+/*	--------------------------------------------------
+	:: Navigation Widget Light
+	-------------------------------------------------- */
+
+    .menu-widget-default.menu-widget-light {
+		background-color:#fff;
+		border:1px solid #f6f7f9;
+	}
+	
+	.menu-widget-default.menu-widget-light .menu-widget-togglel {
+		background-color:#fff;
+        color:#70828f;
+	}
+	
+	.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item > a,
+	.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item > .menu-widget-label,
+	.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item > .menu-widget-label i,
+	.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item#menu-widget-right-arrow > .menu-widget-label:after{
+		color:#70828f;
+	}
+	
+	.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item > a.menu-widget-logo,
+	.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item:hover > a.menu-widget-logo {
+		background:none;
+    }
+	
+	.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item:hover > a,
+	.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item:hover > .menu-widget-label{
+		background-color:#fdfdfd;
+    }
+	
+	.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item {
+		border-left:1px solid #f6f7f9;
+	}
+	
+	.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item:first-child {
+		border-left:none;
+	}
+	
+	.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item:last-child {
+		border-right:none;
+	}
+	
+	.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item li.menu-widget-item{
+		border-left:none;
+	}
+	
+	.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item.menu-widget-left {
+		border-right:1px solid #f6f7f9;
+	}
+	
+	.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item.menu-widget-right {
+		border-left:1px solid #f6f7f9;
+	}
+	
+	.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section,
+    .menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section-right,
+    .menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section-left {
+		background-color:#fff;
+		border:1px solid #f6f7f9;
+    }
+	
+	.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section > li:hover,
+    .menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section-right > li:hover,
+    .menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section-left > li:hover {
+		background-color:#fdfdfd;
+    }
+	
+	.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section > li a,
+    .menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section-right > li a,
+    .menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section-left > li a {
+		color:#92a3b0;
+    }
+	
+	.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section > li a:hover,
+    .menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section-right > li a:hover,
+    .menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section-left > li a:hover {
+		color:#70828f;
+    }
+	
+	.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section li > .menu-widget-label,
+	.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section-right li > .menu-widget-label,
+    .menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item#menu-widget-right-arrow .menu-widget-section li > .menu-widget-label:after,
+	.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item#menu-widget-right-arrow .menu-widget-section-right li > .menu-widget-label:after {
+		color:#92a3b0;
+    }
+	
+	.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item#menu-widget-right-arrow .menu-widget-section li:hover > .menu-widget-label:after,
+	.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item#menu-widget-right-arrow .menu-widget-section-right li:hover > .menu-widget-label:after {
+		color:#70828f;
+    }

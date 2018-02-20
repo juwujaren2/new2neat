@@ -1,0 +1,182 @@
+@page
+@model New2Neat.Pages.ContactModel
+@{
+    ViewData["Title"] = "Contact";
+    Layout = "~/Pages/_AltLayout.cshtml";
+}
+
+<noscript>
+    <div class="contact-widget-container">
+        <div class="contact-widget contact-widget-default contact-widget-blue contact-widget-light">
+            <div class="contact-widget-header">
+                <div class="grid-container">
+                    <div class="grid-row">
+                        <div class="grid-item item-xs-12">
+                            <i class="icomoon-cross"></i>
+                            <h4>Javascript Disabled</h4>
+                            <p>Check information below in order to send us a Message</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-widget-section">
+                <div class="contact-widget-noscript-notification">
+                    <p>Hello it seems you have your <strong>browser without Script</strong> and this form works better with <strong>Javascript Enabled</strong> <br> Please enable it and try again ... Thanks for understand</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</noscript>
+
+<div class="contact-widget-container" id="contact-widget-wrapper">
+    <div class="contact-widget contact-widget-default contact-widget-blue contact-widget-light">
+        <div class="contact-widget-header">
+            <div class="grid-container">
+                <div class="grid-row">
+                    <div class="grid-item item-xs-12">
+                        <i class="icomoon-mailbox"></i>
+                        <h4>WELCOME</h4>
+                        <p>Send us a message below! We would love to hear from you.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-widget-section">
+            <form method="post" action="private/processor.php" id="contact-widget" accept-charset="utf-8" enctype="multipart/form-data">
+                <div class="grid-container">
+                    <div class="grid-row">
+                        <div class="grid-item item-xs-12">
+                            <div class="contact-widget-notification-group">
+                                <div id="contact-widget-notification"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-container">
+                    <div class="grid-row">
+                        <div class="grid-item item-sm-6 item-sm-nomargin item-xs-marginb10">
+                            <div class="contact-widget-input-group">
+                                <label for="contact-widget-firstname" class="contact-widget-group">
+                                    <input type="text" id="contact-widget-firstname" name="contact-widget-firstname" data-rule-required="true" data-msg-required="Enter your First Name" autocomplete="off" maxlength="100" class="contact-widget-input" placeholder="Enter your First Name">
+                                    <div class="contact-widget-tooltip contact-widget-tooltip-blue contact-widget-top-left" data-tooltip="Please enter your First Name"></div>
+                                    <i class="icomoon-user3"></i>
+                                    <div class="contact-widget-input-description">First Name</div>
+                                    <div class="contact-widget-bottom-border"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="grid-item item-sm-6">
+                            <div class="contact-widget-input-group">
+                                <label for="contact-widget-lastname" class="contact-widget-group">
+                                    <input type="text" id="contact-widget-lastname" name="contact-widget-lastname" data-rule-required="true" data-msg-required="Enter your Last Name" autocomplete="off" maxlength="100" class="contact-widget-input" placeholder="Enter your Last Name">
+                                    <div class="contact-widget-tooltip contact-widget-tooltip-blue contact-widget-top-left" data-tooltip="Please enter your Last Name"></div>
+                                    <i class="icomoon-user3"></i>
+                                    <div class="contact-widget-input-description">Last Name</div>
+                                    <div class="contact-widget-bottom-border"></div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-container">
+                    <div class="grid-row">
+                        <div class="grid-item item-xs-12">
+                            <div class="contact-widget-input-group">
+                                <label for="contact-widget-email" class="contact-widget-group">
+                                    <input type="email" id="contact-widget-email" name="contact-widget-email" data-rule-required="true" data-rule-email="true" data-msg-required="Enter your Email Address" data-msg-email="Enter correct Email Address" autocomplete="off" maxlength="100" class="contact-widget-input" placeholder="Enter your Email">
+                                    <div class="contact-widget-tooltip contact-widget-tooltip-blue contact-widget-top-left" data-tooltip="Please enter your Email Address"></div>
+                                    <i class="icomoon-envelop5"></i>
+                                    <div class="contact-widget-input-description">Email Address</div>
+                                    <div class="contact-widget-bottom-border"></div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-container">
+                    <div class="grid-row">
+                        <div class="grid-item item-xs-12">
+                            <div class="contact-widget-input-group">
+                                <label for="contact-widget-subject" class="contact-widget-group">
+                                    <input type="text" id="contact-widget-subject" name="contact-widget-subject" data-rule-required="true" data-msg-required="Enter your Subject" autocomplete="off" maxlength="100" class="contact-widget-input" placeholder="Enter your Subject">
+                                    <div class="contact-widget-tooltip contact-widget-tooltip-blue contact-widget-top-left" data-tooltip="Please enter your subject"></div>
+                                    <i class="icomoon-bubble-check"></i>
+                                    <div class="contact-widget-input-description">Subject</div>
+                                    <div class="contact-widget-bottom-border"></div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-container">
+                    <div class="grid-row">
+                        <div class="grid-item item-xs-12">
+                            <div class="contact-widget-textarea-group">
+                                <label for="contact-widget-message" class="contact-widget-group">
+                                    <textarea rows="5" id="contact-widget-message" name="contact-widget-message" data-rule-required="true" data-msg-required="Enter your Message" maxlength="300" class="contact-widget-textarea" placeholder="Enter your Message"></textarea>
+                                    <div class="contact-widget-tooltip contact-widget-tooltip-blue contact-widget-top-left" data-tooltip="Please enter your Message"></div>
+                                    <i class="icomoon-file-text3"></i>
+                                    <div class="contact-widget-input-description">Message</div>
+                                    <div class="contact-widget-bottom-border"></div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-container">
+                    <div class="grid-row">
+                        <div class="grid-item item-xs-12 item-xs-margint30 item-xs-marginb20">
+                            <div class="dividers">
+                                <div class="divider divider-fourteen"><div class="description">Captcha</div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-container">
+                    <div class="grid-row">
+                        <div class="grid-item item-sm-6 item-sm-nomargin item-xs-marginb10">
+                            <div class="contact-widget-captcha-group">
+                                <div class="contact-widget-static-captcha">Make this Sum ? 11 + 23</div>
+                            </div>
+                        </div>
+                        <div class="grid-item item-sm-6">
+                            <div class="contact-widget-input-group">
+                                <label for="contact-widget-captcha" class="contact-widget-group">
+                                    <input type="text" id="contact-widget-captcha" name="contact-widget-captcha" maxlength="2" data-rule-required="true" data-rule-equal="34" data-msg-required="Enter your Verification Code" data-msg-equal="Enter correct Verification Code" autocomplete="off" class="contact-widget-input" placeholder="Enter your verification code">
+                                    <div class="contact-widget-tooltip contact-widget-tooltip-blue contact-widget-top-left" data-tooltip="Please enter here your verification Code"></div>
+                                    <i class="icomoon-lock2"></i>
+                                    <div class="contact-widget-input-description">Captcha</div>
+                                    <div class="contact-widget-bottom-border"></div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-container">
+                    <div class="grid-row">
+                        <div class="grid-item item-xs-12 item-xs-margint15 item-xs-marginb10">
+                            <div class="contact-widget-progress-container">
+                                <div class="contact-widget-progress-bar contact-widget-progress-blue contact-widget-striped">
+                                    <div class="contact-widget-bar"></div>
+                                    <div class="contact-widget-percent">0%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-container">
+                    <div class="grid-row">
+                        <div class="grid-item item-xs-12">
+                            <div class="contact-widget-button-group">
+                                <button type="submit" id="contact-widget-button" class="contact-widget-button contact-widget-button-success item-xs-marginb10">Send Message</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">document.getElementById("contact-widget-wrapper").style.display = 'block';</script>
+

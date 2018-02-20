@@ -1,0 +1,253 @@
+/*
+    Description: 	Designer Framework Flat
+    Author: 		InsideLab
+    Version: 		1.0
+*/
+
+/*	--------------------------------------------------
+	:: Navigation Widget - Fade
+	-------------------------------------------------- */
+	
+	.menu-widget-fade .menu-widget-wrapper .menu-widget-section,
+	.menu-widget-fade .menu-widget-wrapper .menu-widget-section-right,
+	.menu-widget-fade .menu-widget-wrapper .menu-widget-section-left {
+        opacity:0;
+        -webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;
+    }
+	
+	.menu-widget-fade .menu-widget-wrapper .menu-widget-item:hover .menu-widget-section,
+	.menu-widget-fade .menu-widget-wrapper .menu-widget-item li:hover .menu-widget-section-right,
+	.menu-widget-fade .menu-widget-wrapper .menu-widget-item li li:hover .menu-widget-section-left {
+	    opacity:1;
+    }
+
+/*	--------------------------------------------------
+	:: Navigation Widget - Flipx
+	-------------------------------------------------- */
+
+	.menu-widget-flipx .menu-widget-wrapper .menu-widget-section,
+	.menu-widget-flipx .menu-widget-wrapper .menu-widget-section-right,
+	.menu-widget-flipx .menu-widget-wrapper .menu-widget-section-left {
+        opacity:0;
+		-webkit-transform:rotateY(-180deg);
+		   -moz-transform:rotateY(-180deg);
+				transform:rotateY(-180deg);
+	    -webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;           		
+    }
+	
+	.menu-widget-flipx .menu-widget-wrapper .menu-widget-item:hover .menu-widget-section,
+	.menu-widget-flipx .menu-widget-wrapper .menu-widget-item li:hover .menu-widget-section-right,
+	.menu-widget-flipx .menu-widget-wrapper .menu-widget-item li li:hover .menu-widget-section-left {
+        opacity:1;
+	    -webkit-transform:rotateY(0deg);
+		   -moz-transform:rotateY(0deg);
+				transform:rotateY(0deg);
+    }
+	
+/*	--------------------------------------------------
+	:: Navigation Widget - Flipy
+	-------------------------------------------------- */
+
+	.menu-widget-flipy .menu-widget-wrapper .menu-widget-section,
+	.menu-widget-flipy .menu-widget-wrapper .menu-widget-section-right,
+	.menu-widget-flipy .menu-widget-wrapper .menu-widget-section-left { 
+        opacity:0;
+		-webkit-transform:rotateX(-180deg);
+		   -moz-transform:rotateX(-180deg);
+				transform:rotateX(-180deg);
+	    -webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;           		
+    }
+	
+	.menu-widget-flipy .menu-widget-wrapper .menu-widget-item:hover .menu-widget-section,
+	.menu-widget-flipy .menu-widget-wrapper .menu-widget-item li:hover .menu-widget-section-right,
+	.menu-widget-flipy .menu-widget-wrapper .menu-widget-item li li:hover .menu-widget-section-left {
+        opacity:1;
+	    -webkit-transform:rotateY(0deg);
+		   -moz-transform:rotateY(0deg);
+				transform:rotateY(0deg);
+    }
+	
+/*	--------------------------------------------------
+	:: Navigation Widget - Fall
+	-------------------------------------------------- */
+	
+	.menu-widget-fall .menu-widget-wrapper .menu-widget-section,
+	.menu-widget-fall .menu-widget-wrapper .menu-widget-section-right,
+	.menu-widget-fall .menu-widget-wrapper .menu-widget-section-left {
+        opacity:0;
+	    -webkit-transform:rotate(-30deg) scale(0.4);
+		   -moz-transform:rotate(-30deg) scale(0.4);
+				transform:rotate(-30deg) scale(0.4);
+        -webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;
+    }
+	
+	.menu-widget-fall .menu-widget-wrapper .menu-widget-item:hover .menu-widget-section,
+	.menu-widget-fall .menu-widget-wrapper .menu-widget-item li:hover .menu-widget-section-right,
+	.menu-widget-fall .menu-widget-wrapper .menu-widget-item li li:hover .menu-widget-section-left {
+        opacity:1;
+	    -webkit-transform:rotate(0deg) scale(1);
+		   -moz-transform:rotate(0deg) scale(1);
+				transform:rotate(0deg) scale(1);
+    }
+
+/*	--------------------------------------------------
+	:: Navigation Widget - Rotate
+	-------------------------------------------------- */
+	
+	.menu-widget-rotate .menu-widget-wrapper .menu-widget-section,
+	.menu-widget-rotate .menu-widget-wrapper .menu-widget-section-right,
+	.menu-widget-rotate .menu-widget-wrapper .menu-widget-section-left {
+        opacity:0;
+	    -webkit-transform:rotate(-180deg) scale(0.4);
+		   -moz-transform:rotate(-180deg) scale(0.4);
+				transform:rotate(-180deg) scale(0.4); 
+        -webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;
+    }
+	
+	.menu-widget-rotate .menu-widget-wrapper .menu-widget-item:hover .menu-widget-section,
+	.menu-widget-rotate .menu-widget-wrapper .menu-widget-item li:hover .menu-widget-section-right,
+	.menu-widget-rotate .menu-widget-wrapper .menu-widget-item li li:hover .menu-widget-section-left {
+        opacity:1;
+        -webkit-transform:rotate(0deg) scale(1);
+		   -moz-transform:rotate(0deg) scale(1);
+			    transform:rotate(0deg) scale(1);
+    }
+	
+/*	--------------------------------------------------
+	:: Navigation Widget - Slide-left
+	-------------------------------------------------- */
+	
+	.menu-widget-slide-left .menu-widget-wrapper .menu-widget-section,
+	.menu-widget-slide-left .menu-widget-wrapper .menu-widget-section-right,
+	.menu-widget-slide-left .menu-widget-wrapper .menu-widget-section-left { 
+        opacity:0;
+		-webkit-transform:translateX(-20%);
+		   -moz-transform:translateX(-20%);
+				transform:translateX(-20%);
+        -webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;
+		 
+    }
+	
+	.menu-widget-slide-left .menu-widget-wrapper .menu-widget-item:hover .menu-widget-section,
+	.menu-widget-slide-left .menu-widget-wrapper .menu-widget-item li:hover .menu-widget-section-right,
+	.menu-widget-slide-left .menu-widget-wrapper .menu-widget-item li li:hover .menu-widget-section-left {
+        opacity:1;
+	    -webkit-transform:translateX(0%);
+	       -moz-transform:translateX(0%);
+	            transform:translateX(0%);
+    }
+	
+/*	--------------------------------------------------
+	:: Navigation Widget - Slide-right
+	-------------------------------------------------- */
+	
+	.menu-widget-slide-right .menu-widget-wrapper .menu-widget-section,
+	.menu-widget-slide-right .menu-widget-wrapper .menu-widget-section-right,
+	.menu-widget-slide-right .menu-widget-wrapper .menu-widget-section-left {
+        opacity:0;
+		-webkit-transform:translateX(20%);
+		   -moz-transform:translateX(20%);
+				transform:translateX(20%);
+        -webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;
+		 
+    }
+	
+	.menu-widget-slide-right .menu-widget-wrapper .menu-widget-item:hover .menu-widget-section,
+	.menu-widget-slide-right .menu-widget-wrapper .menu-widget-item li:hover .menu-widget-section-right,
+	.menu-widget-slide-right .menu-widget-wrapper .menu-widget-item li li:hover .menu-widget-section-left {
+        opacity:1;
+	    -webkit-transform:translateX(0%);
+	       -moz-transform:translateX(0%);
+	            transform:translateX(0%);
+    }
+	
+/*	--------------------------------------------------
+	:: Navigation Widget - Slide-up
+	-------------------------------------------------- */
+	
+	.menu-widget-slide-up .menu-widget-wrapper .menu-widget-section,
+	.menu-widget-slide-up .menu-widget-wrapper .menu-widget-section-right,
+	.menu-widget-slide-up .menu-widget-wrapper .menu-widget-section-left {
+        opacity:0;
+		-webkit-transform:translateY(20%);
+		   -moz-transform:translateY(20%);
+				transform:translateY(20%);
+        -webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;
+		 
+    }
+	
+	.menu-widget-slide-up .menu-widget-wrapper .menu-widget-item:hover .menu-widget-section,
+	.menu-widget-slide-up .menu-widget-wrapper .menu-widget-item li:hover .menu-widget-section-right,
+	.menu-widget-slide-up .menu-widget-wrapper .menu-widget-item li li:hover .menu-widget-section-left {
+        opacity:1;
+	    -webkit-transform:translateY(0%);
+	       -moz-transform:translateY(0%);
+	            transform:translateY(0%);
+    }
+	
+/*	--------------------------------------------------
+	:: Navigation Widget - Slide-down
+	-------------------------------------------------- */
+	
+	.menu-widget-slide-down .menu-widget-wrapper .menu-widget-section,
+	.menu-widget-slide-down .menu-widget-wrapper .menu-widget-section-right,
+	.menu-widget-slide-down .menu-widget-wrapper .menu-widget-section-left {
+        opacity:0;
+		-webkit-transform:translateY(-20%);
+		   -moz-transform:translateY(-20%);
+				transform:translateY(-20%);
+        -webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;
+		 
+    }
+	
+	.menu-widget-slide-down .menu-widget-wrapper .menu-widget-item:hover .menu-widget-section,
+	.menu-widget-slide-down .menu-widget-wrapper .menu-widget-item li:hover .menu-widget-section-right,
+	.menu-widget-slide-down .menu-widget-wrapper .menu-widget-item li li:hover .menu-widget-section-left {
+        opacity:1;
+	    -webkit-transform:translateY(0%);
+	       -moz-transform:translateY(0%);
+	            transform:translateY(0%);
+    }
+	
+/*	--------------------------------------------------
+	:: Navigation Widget - Zoom
+	-------------------------------------------------- */
+
+	.menu-widget-zoom .menu-widget-wrapper .menu-widget-section,
+	.menu-widget-zoom .menu-widget-wrapper .menu-widget-section-right,
+	.menu-widget-zoom .menu-widget-wrapper .menu-widget-section-left {
+        opacity:0;
+	    -webkit-transform:scale(0.6);
+		   -moz-transform:scale(0.6);
+                transform:scale(0.6);
+        -webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;
+    }
+	
+    .menu-widget-zoom .menu-widget-wrapper .menu-widget-item:hover .menu-widget-section,
+	.menu-widget-zoom .menu-widget-wrapper .menu-widget-item li:hover .menu-widget-section-right,
+	.menu-widget-zoom .menu-widget-wrapper .menu-widget-item li li:hover .menu-widget-section-left {
+        opacity:1;
+	    -webkit-transform:scale(1);
+		   -moz-transform:scale(1);
+                transform:scale(1);
+    }

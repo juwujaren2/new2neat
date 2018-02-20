@@ -1,0 +1,793 @@
+/*
+    Description: 	Designer Framework Flat
+    Author: 		InsideLab
+    Version: 		1.0
+*/
+
+/*	--------------------------------------------------
+	:: TABLET PORTRAIT DESIGN WIDTH 1200PX
+	-------------------------------------------------- */
+
+    @media only screen and (min-width:960px) and (max-width:1199px) {
+		
+        .designer-widget-wrapper { width:100%; }
+		
+		/*	--------------------------------------------------
+		:: Navigation Widget Toggle Hide on Desktop
+		-------------------------------------------------- */	
+		
+		.menu-widget .menu-widget-togglel {
+			display:block;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget Wrapper hide by Default
+		-------------------------------------------------- */	
+		
+		.menu-widget .menu-widget-wrapper {
+			position:fixed;
+			opacity:0;
+			visibility:hidden;
+			margin-top:10px;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget Wrapper show on Checked
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-togglei:checked ~ .menu-widget-wrapper {
+			position:static;
+			opacity:1;
+			visibility:visible;
+			margin-top:0;
+			-webkit-transition:all 0.4s ease-in-out;
+			   -moz-transition:all 0.4s ease-in-out;
+					transition:all 0.4s ease-in-out;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item Block Elements
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item {
+			display:block;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item <a>
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item > a,
+		.menu-widget .menu-widget-wrapper .menu-widget-item > .menu-widget-label{
+			text-align:left;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item <a>
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item > a.menu-widget-logo{
+			display:none;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item right arrow
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item#menu-widget-right-arrow > .menu-widget-label:after {
+			margin-top:2px;
+			float:right;
+		}
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item#menu-widget-right-arrow > .menu-widget-input:checked + .menu-widget-label:after {
+			content:"\edc7";
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item Block
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item.menu-widget-left,
+		.menu-widget .menu-widget-wrapper .menu-widget-item.menu-widget-right {
+			float:none;
+		}
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item.menu-widget-left .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item.menu-widget-right .menu-widget-section {
+			margin:0;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item Hover from Desktop Hide
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item:hover .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item li:hover .menu-widget-section-right,
+		.menu-widget .menu-widget-wrapper .menu-widget-item li li:hover .menu-widget-section-left {
+			opacity:0;
+			visibility:hidden;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item Section no Animation
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section-right,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section-left,
+        .menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-input:checked ~ .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-input:checked ~ .menu-widget-section-right,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-input:checked ~ .menu-widget-section-left,
+        .menu-widget .menu-widget-wrapper .menu-widget-item:hover .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item li:hover .menu-widget-section-right,
+        .menu-widget .menu-widget-wrapper .menu-widget-item li li:hover .menu-widget-section-left {
+			-webkit-transform:none;
+               -moz-transform:none;
+                 -o-transform:none;
+                    transform:none;
+			-webkit-transition:none;
+               -moz-transition:none;
+                 -o-transition:none;
+                    transition:none;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item hide by Default
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section-right,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section-left {
+			height:0;
+            opacity:0;
+	        visibility:hidden;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item show on Checked
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-input:checked + .menu-widget-label ~ .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-input:checked + .menu-widget-label ~ .menu-widget-section-right,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-input:checked + .menu-widget-label ~ .menu-widget-section-left {
+			position:static;
+			width:100%;
+            height:100%;
+            opacity:1;
+            visibility:visible;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget Widget Light
+		-------------------------------------------------- */
+		
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item {
+			border-bottom:1px solid #f6f7f9;
+			border-left:none;
+		}
+		
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item.menu-widget-left,
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item.menu-widget-right {
+			border-left:none;
+		}
+		
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item:first-child {
+			border-right:none;
+		}
+		
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item:last-child {
+			border-bottom:none;
+			border-left:none;
+		}
+		
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section,
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section-right,
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section-left {
+			border-top:1px solid #f6f7f9;
+			border-left:none;
+			border-right:none;
+			border-bottom:none;
+		}
+		
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-input:checked + .menu-widget-label {
+			background-color:#fdfdfd;
+		}
+		
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section li .menu-widget-input:checked + .menu-widget-label,
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section-right li .menu-widget-input:checked + .menu-widget-label {
+			border-top:1px solid #f6f7f9;
+		}
+		       
+    }
+
+/*	--------------------------------------------------
+	:: TABLET PORTRAIT DESIGN WIDTH 960PX
+	-------------------------------------------------- */
+
+    @media only screen and (min-width:768px) and (max-width:959px) {
+		
+        .designer-widget-wrapper { width:100%; }
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget Toggle Hide on Desktop
+		-------------------------------------------------- */	
+		
+		.menu-widget .menu-widget-togglel {
+			display:block;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget Wrapper hide by Default
+		-------------------------------------------------- */	
+		
+		.menu-widget .menu-widget-wrapper {
+			position:fixed;
+			opacity:0;
+			visibility:hidden;
+			margin-top:10px;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget Wrapper show on Checked
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-togglei:checked ~ .menu-widget-wrapper {
+			position:static;
+			opacity:1;
+			visibility:visible;
+			margin-top:0;
+			-webkit-transition:all 0.4s ease-in-out;
+			   -moz-transition:all 0.4s ease-in-out;
+					transition:all 0.4s ease-in-out;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item Block Elements
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item {
+			display:block;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item <a>
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item > a,
+		.menu-widget .menu-widget-wrapper .menu-widget-item > .menu-widget-label{
+			text-align:left;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item <a>
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item > a.menu-widget-logo{
+			display:none;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item right arrow
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item#menu-widget-right-arrow > .menu-widget-label:after {
+			margin-top:2px;
+			float:right;
+		}
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item#menu-widget-right-arrow > .menu-widget-input:checked + .menu-widget-label:after {
+			content:"\edc7";
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item Block
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item.menu-widget-left,
+		.menu-widget .menu-widget-wrapper .menu-widget-item.menu-widget-right {
+			float:none;
+		}
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item.menu-widget-left .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item.menu-widget-right .menu-widget-section {
+			margin:0;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item Hover from Desktop Hide
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item:hover .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item li:hover .menu-widget-section-right,
+		.menu-widget .menu-widget-wrapper .menu-widget-item li li:hover .menu-widget-section-left {
+			opacity:0;
+			visibility:hidden;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item Section no Animation
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section-right,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section-left,
+        .menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-input:checked ~ .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-input:checked ~ .menu-widget-section-right,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-input:checked ~ .menu-widget-section-left,
+        .menu-widget .menu-widget-wrapper .menu-widget-item:hover .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item li:hover .menu-widget-section-right,
+        .menu-widget .menu-widget-wrapper .menu-widget-item li li:hover .menu-widget-section-left {
+			-webkit-transform:none;
+               -moz-transform:none;
+                 -o-transform:none;
+                    transform:none;
+			-webkit-transition:none;
+               -moz-transition:none;
+                 -o-transition:none;
+                    transition:none;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item hide by Default
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section-right,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section-left {
+			height:0;
+            opacity:0;
+	        visibility:hidden;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item show on Checked
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-input:checked + .menu-widget-label ~ .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-input:checked + .menu-widget-label ~ .menu-widget-section-right,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-input:checked + .menu-widget-label ~ .menu-widget-section-left {
+			position:static;
+			width:100%;
+            height:100%;
+            opacity:1;
+            visibility:visible;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget Widget Light
+		-------------------------------------------------- */
+		
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item {
+			border-bottom:1px solid #f6f7f9;
+			border-left:none;
+		}
+		
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item.menu-widget-left,
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item.menu-widget-right {
+			border-left:none;
+		}
+		
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item:first-child {
+			border-right:none;
+		}
+		
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item:last-child {
+			border-bottom:none;
+			border-left:none;
+		}
+		
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section,
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section-right,
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section-left {
+			border-top:1px solid #f6f7f9;
+			border-left:none;
+			border-right:none;
+			border-bottom:none;
+		}
+		
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-input:checked + .menu-widget-label {
+			background-color:#fdfdfd;
+		}
+		
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section li .menu-widget-input:checked + .menu-widget-label,
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section-right li .menu-widget-input:checked + .menu-widget-label {
+			border-top:1px solid #f6f7f9;
+		}
+		       
+    }
+
+/*	--------------------------------------------------
+	:: TABLET LANDSCAPE DESIGN WIDTH 420PX
+	-------------------------------------------------- */
+
+    @media only screen and (min-width:480px) and (max-width:767px) {
+		
+        .designer-widget-wrapper { width:100%; }
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget Toggle Hide on Desktop
+		-------------------------------------------------- */	
+		
+		.menu-widget .menu-widget-togglel {
+			display:block;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget Wrapper hide by Default
+		-------------------------------------------------- */	
+		
+		.menu-widget .menu-widget-wrapper {
+			position:fixed;
+			opacity:0;
+			visibility:hidden;
+			margin-top:10px;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget Wrapper show on Checked
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-togglei:checked ~ .menu-widget-wrapper {
+			position:static;
+			opacity:1;
+			visibility:visible;
+			margin-top:0;
+			-webkit-transition:all 0.4s ease-in-out;
+			   -moz-transition:all 0.4s ease-in-out;
+					transition:all 0.4s ease-in-out;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item Block Elements
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item {
+			display:block;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item <a>
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item > a,
+		.menu-widget .menu-widget-wrapper .menu-widget-item > .menu-widget-label{
+			text-align:left;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item <a>
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item > a.menu-widget-logo{
+			display:none;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item right arrow
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item#menu-widget-right-arrow > .menu-widget-label:after {
+			margin-top:2px;
+			float:right;
+		}
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item#menu-widget-right-arrow > .menu-widget-input:checked + .menu-widget-label:after {
+			content:"\edc7";
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item Block
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item.menu-widget-left,
+		.menu-widget .menu-widget-wrapper .menu-widget-item.menu-widget-right {
+			float:none;
+		}
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item.menu-widget-left .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item.menu-widget-right .menu-widget-section {
+			margin:0;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item Hover from Desktop Hide
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item:hover .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item li:hover .menu-widget-section-right,
+		.menu-widget .menu-widget-wrapper .menu-widget-item li li:hover .menu-widget-section-left {
+			opacity:0;
+			visibility:hidden;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item Section no Animation
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section-right,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section-left,
+        .menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-input:checked ~ .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-input:checked ~ .menu-widget-section-right,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-input:checked ~ .menu-widget-section-left,
+        .menu-widget .menu-widget-wrapper .menu-widget-item:hover .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item li:hover .menu-widget-section-right,
+        .menu-widget .menu-widget-wrapper .menu-widget-item li li:hover .menu-widget-section-left {
+			-webkit-transform:none;
+               -moz-transform:none;
+                 -o-transform:none;
+                    transform:none;
+			-webkit-transition:none;
+               -moz-transition:none;
+                 -o-transition:none;
+                    transition:none;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item hide by Default
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section-right,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section-left {
+			height:0;
+            opacity:0;
+	        visibility:hidden;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item show on Checked
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-input:checked + .menu-widget-label ~ .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-input:checked + .menu-widget-label ~ .menu-widget-section-right,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-input:checked + .menu-widget-label ~ .menu-widget-section-left {
+			position:static;
+			width:100%;
+            height:100%;
+            opacity:1;
+            visibility:visible;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget Widget Light
+		-------------------------------------------------- */
+		
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item {
+			border-bottom:1px solid #f6f7f9;
+			border-left:none;
+		}
+		
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item.menu-widget-left,
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item.menu-widget-right {
+			border-left:none;
+		}
+		
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item:first-child {
+			border-right:none;
+		}
+		
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item:last-child {
+			border-bottom:none;
+			border-left:none;
+		}
+		
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section,
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section-right,
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section-left {
+			border-top:1px solid #f6f7f9;
+			border-left:none;
+			border-right:none;
+			border-bottom:none;
+		}
+		
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-input:checked + .menu-widget-label {
+			background-color:#fdfdfd;
+		}
+		
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section li .menu-widget-input:checked + .menu-widget-label,
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section-right li .menu-widget-input:checked + .menu-widget-label {
+			border-top:1px solid #f6f7f9;
+		}
+		
+    }
+
+/*	--------------------------------------------------
+	:: TABLET PORTRAIT DESIGN WIDTH 300PX
+	-------------------------------------------------- */
+
+    @media only screen and (max-width:479px) {
+		
+        .designer-widget-wrapper { width:100%; }
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget Toggle Hide on Desktop
+		-------------------------------------------------- */	
+		
+		.menu-widget .menu-widget-togglel {
+			display:block;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget Wrapper hide by Default
+		-------------------------------------------------- */	
+		
+		.menu-widget .menu-widget-wrapper {
+			position:fixed;
+			opacity:0;
+			visibility:hidden;
+			margin-top:10px;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget Wrapper show on Checked
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-togglei:checked ~ .menu-widget-wrapper {
+			position:static;
+			opacity:1;
+			visibility:visible;
+			margin-top:0;
+			-webkit-transition:all 0.4s ease-in-out;
+			   -moz-transition:all 0.4s ease-in-out;
+					transition:all 0.4s ease-in-out;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item Block Elements
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item {
+			display:block;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item <a>
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item > a,
+		.menu-widget .menu-widget-wrapper .menu-widget-item > .menu-widget-label{
+			text-align:left;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item <a>
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item > a.menu-widget-logo{
+			display:none;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item right arrow
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item#menu-widget-right-arrow > .menu-widget-label:after {
+			margin-top:2px;
+			float:right;
+		}
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item#menu-widget-right-arrow > .menu-widget-input:checked + .menu-widget-label:after {
+			content:"\edc7";
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item Block
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item.menu-widget-left,
+		.menu-widget .menu-widget-wrapper .menu-widget-item.menu-widget-right {
+			float:none;
+		}
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item.menu-widget-left .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item.menu-widget-right .menu-widget-section {
+			margin:0;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item Hover from Desktop Hide
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item:hover .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item li:hover .menu-widget-section-right,
+		.menu-widget .menu-widget-wrapper .menu-widget-item li li:hover .menu-widget-section-left {
+			opacity:0;
+			visibility:hidden;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item Section no Animation
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section-right,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section-left,
+        .menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-input:checked ~ .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-input:checked ~ .menu-widget-section-right,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-input:checked ~ .menu-widget-section-left,
+        .menu-widget .menu-widget-wrapper .menu-widget-item:hover .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item li:hover .menu-widget-section-right,
+        .menu-widget .menu-widget-wrapper .menu-widget-item li li:hover .menu-widget-section-left {
+			-webkit-transform:none;
+               -moz-transform:none;
+                 -o-transform:none;
+                    transform:none;
+			-webkit-transition:none;
+               -moz-transition:none;
+                 -o-transition:none;
+                    transition:none;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item hide by Default
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section-right,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section-left {
+			height:0;
+            opacity:0;
+	        visibility:hidden;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget item show on Checked
+		-------------------------------------------------- */
+		
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-input:checked + .menu-widget-label ~ .menu-widget-section,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-input:checked + .menu-widget-label ~ .menu-widget-section-right,
+		.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-input:checked + .menu-widget-label ~ .menu-widget-section-left {
+			position:static;
+			width:100%;
+            height:100%;
+            opacity:1;
+            visibility:visible;
+		}
+		
+	/*	--------------------------------------------------
+		:: Navigation Widget Widget Light
+		-------------------------------------------------- */
+		
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item {
+			border-bottom:1px solid #f6f7f9;
+			border-left:none;
+		}
+		
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item.menu-widget-left,
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item.menu-widget-right {
+			border-left:none;
+		}
+		
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item:first-child {
+			border-right:none;
+		}
+		
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item:last-child {
+			border-bottom:none;
+			border-left:none;
+		}
+		
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section,
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section-right,
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section-left {
+			border-top:1px solid #f6f7f9;
+			border-left:none;
+			border-right:none;
+			border-bottom:none;
+		}
+		
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-input:checked + .menu-widget-label {
+			background-color:#fdfdfd;
+		}
+		
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section li .menu-widget-input:checked + .menu-widget-label,
+		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section-right li .menu-widget-input:checked + .menu-widget-label {
+			border-top:1px solid #f6f7f9;
+		}
+				
+    }

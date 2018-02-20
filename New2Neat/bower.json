@@ -1,9 +1,10 @@
 {
   "name": "asp.net",
   "private": true,
-    "dependencies": {
-        "bootstrap": "v4.0.0",
-        "Font-Awesome": "v4.7.0",
-        "popper.js": "v1.12.9"
-    }
+  "dependencies": {
+    "bootstrap": "v4.0.0",
+    "Font-Awesome": "v4.7.0",
+    "popper.js": "v1.12.9",
+    "materialize": "v0.100.2"
+  }
 }
