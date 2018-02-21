@@ -14,7 +14,7 @@ $(document).ready(function () {
         }
     }
 
-    $("body").on("click", "button[name=scrollBtn]", function () {
+    $("body").on("click", "button#scrollBtn", function () {
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
         document.location.href = "/";

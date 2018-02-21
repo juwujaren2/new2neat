@@ -11,16 +11,22 @@ body {
     overflow: hidden;
 }
 
-.header-contact-row, .header-brand-row, .header-text, .header-buttons-row, .testimonials-block, .services-row, .about-heading, .about-row, .contact-row, footer {
+.header-contact-row, .header-brand-row, .header-text, .header-phone-email-row, .testimonials-block, .services-row, .about-heading, .about-row, .contact-row, footer {
     padding-left: 1%;
     padding-right: 1%;
+}
+
+.icon {
+    position: relative;
+    top: 1px;
 }
 
 #about h2, #services h2, #testimonials h2 {
     color: #4b5b68;
     font-family: 'Raleway', sans-serif;
-    font-size: 47px;
+    font-size: 40px;
     font-weight: bold;
+    letter-spacing: 3px;
     padding-top: 25px;
     text-align: center;
     text-transform: uppercase;
@@ -29,6 +35,33 @@ body {
 /*	--------------------------------------------------
 	:: HEADER SECTION
 	-------------------------------------------------- */
+.header-contact a, .header-contact {
+    color: #fff;
+}
+
+    .header-contact a {
+        text-decoration: none;
+    }
+
+.header-contact a:hover {
+    opacity: 0.6;
+}
+
+.header-contact {
+    background-color: #054c61;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+    .header-contact i {
+        color: #51cef5;
+    }
+
+.separator {
+    color: #fff;
+    display: inline-block;
+    padding: 0 10px;
+}
 
 .main-header {
     background: url('../images/homepage.png');
@@ -40,33 +73,13 @@ body {
     background: none;
     height: auto;
 }
-.header-contact-row {
-    background: #054c61;
-    color: #fff;
-    padding-top: 20px;
-}
-    .header-contact-row .phone-email h4 {
-        font-family: "Raleway";
-        font-weight: bold;
-        font-style: normal;
-        font-size: 18px;
-        line-height: 20px;
-    }
 
-.social-media-icons {
-    color: #5698ac;
-    -webkit-filter: drop-shadow( 5px 5px 5px #000 );
-    filter: drop-shadow( 5px 5px 5px #000 );
-    font-size: 24px;
-    letter-spacing: 15px;
-}
-
-.social-media-icons a {
-    color: #5698ac;
+.social-media-icons > a {
+    margin-left: 12px;
 }
 
 .social-media-icons a:hover {
-    color: #51cef5;
+    opacity: 0.6;
     text-decoration: none;
 }
 
@@ -97,11 +110,23 @@ header .header-text {
 
 header h2 {
     color: #fff;
-    font-size: 55px;
+    font-size: 48px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+    letter-spacing: 3px;
     text-align: center;
     text-transform: uppercase;
+}
+
+header h4 {
+    color: #51cef5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 40px;
+    text-align: center;
 }
 
 header .header-buttons {
@@ -205,6 +230,7 @@ footer {
     background: #023d4f;
     color: #fff;
     font-size: 12px;
+    padding-top: 1%;
 }
 
     footer p {
@@ -230,14 +256,17 @@ footer {
     border: none;
     outline: none;
     background-color: #ed7066;
-    color: white;
+    color: #fff;
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
 }
 
     #scrollBtn:hover {
-        background-color: #4b5b68;
+        background-color: #ed7066;
+        color: #000;
+        text-decoration: none;
+        opacity:0.4;
     }
 
 /*	--------------------------------------------------
