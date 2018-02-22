@@ -104,18 +104,26 @@ body {
     }
 
 header .header-text {
-    padding-top: 25%;
+    padding: 20% 18% 0 18%;
     text-shadow: 2px 2px 2px #000;
 }
 
 header h2 {
     color: #fff;
-    font-size: 48px;
-    font-family: 'Raleway', sans-serif;
+    font-size: 42px;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     letter-spacing: 3px;
-    text-align: center;
+    line-height: 60px;
+    text-shadow: 0 0 7px #000000;
     text-transform: uppercase;
+}
+
+header p {
+    color: #fff;
+    font-size: 22px;
+    line-height: 28px;
+    text-shadow: 0 0 3px #000;
 }
 
 header h4 {
@@ -129,9 +137,22 @@ header h4 {
     text-align: center;
 }
 
-header .header-buttons {
-    margin: 25px 0 0 0;
-    text-align: center;
+.header-btn {
+    background: #41a0be;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 12px 20px;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+
+.header-btn:hover {
+    color: #fff;
+    opacity: 0.7;
+    text-decoration: none;
 }
 
 header .btn {
