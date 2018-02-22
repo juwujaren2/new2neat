@@ -163,7 +163,7 @@ header p {
 #testimonials {
     background: #d3cfcf;
     padding-bottom: 50px;
-    padding-left: 10%;
+    padding-left: 5%;
     padding-right: 5%;
 }
 
@@ -209,7 +209,7 @@ header p {
 	-------------------------------------------------- */
 
 #ratings {
-    padding: 0 40px 40px 80px;
+    padding: 0 40px 40px 40px;
 }
 
 .portfolio-widget .portfolio-widget-media .portfolio-widget-item {
@@ -337,5 +337,10 @@ footer {
 
 .testimonials-widget-default.testimonials-widget-light .testimonials-widget-section blockquote p {
     color: #70828f;
+}
+
+.grid-holder .column.three.nospacedesl {
+    width: 25%;
+    padding-left: 0;
 }
 
