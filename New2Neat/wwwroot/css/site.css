@@ -21,7 +21,7 @@ body {
     top: 1px;
 }
 
-#about h2, #services h2, #testimonials h2 {
+#about h2, #ratings h2, #services h2, #testimonials h2 {
     color: #4b5b68;
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
@@ -167,12 +167,13 @@ header p {
     padding-right: 5%;
 }
 
-    /*	--------------------------------------------------
-	:: SERVICES SECTION
-	-------------------------------------------------- */
-    #services .services-row {
-        margin-bottom: 25px;
-    }
+/*	--------------------------------------------------
+:: SERVICES SECTION
+-------------------------------------------------- */
+
+#services .services-row {
+    margin-bottom: 25px;
+}
 
 #services .services-item {
     text-align: center;
@@ -204,9 +205,29 @@ header p {
     }
 
 /*	--------------------------------------------------
-	:: CONTACT SECTION
+	:: RATINGS AND MEMBERSHIP SECTION
 	-------------------------------------------------- */
 
+#ratings {
+    padding: 0 40px 40px 80px;
+}
+
+.portfolio-widget .portfolio-widget-media .portfolio-widget-item {
+    opacity: 1;
+}
+
+.portfolio-widget-item .portfolio-widget-description .facebook-rating {
+    font-size: 33px!important;
+    color: #4267B2!important;
+}
+
+.portfolio-widget-item .portfolio-widget-description i {
+    color: #51cef5!important;
+}
+
+/*	--------------------------------------------------
+	:: CONTACT SECTION
+	-------------------------------------------------- */
 #contact {
     background: #054c61;
     font-family: 'Titillium Web', sans-serif;
