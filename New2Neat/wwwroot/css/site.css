@@ -138,6 +138,10 @@ header p {
     text-shadow: 0 0 3px #000;
 }
 
+.header-text .tagline {
+    margin-top: -15px;
+}
+
 .header-btn {
     background: #41a0be;
     color: #fff;
