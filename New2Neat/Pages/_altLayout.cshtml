@@ -2,72 +2,18 @@
 <html>
 <head>
     <meta charset="utf-8" />
+    <meta name="author" content="Janice Uwujaren - Front-end Web Developer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="New2Neat Cleaning Service for individuals and Business....">
+    <meta name="keywords" content="New2Neat, cleaning, service, ......">
     <title>@ViewData["Title"] - New2Neat</title>
     @Html.Partial("_StylesPartial")
 </head>
 <body>
-    <div class="container-fluid">
-        <header class="alt-header">
-            <div class="header-contact">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-9">
-                            <a href=""><i class="icon icomoon-envelop"></i> Email: new2neat@gmail.com</a> <span class="separator">|</span>
-                            <a href=""><i class="icon icomoon-phone2"></i> Call: (770) 286-1655</a>
-                        </div>
-                        <div class="col-md-3 text-right">
-                            <div class="social-media-icons">
-                                <a href="https://www.facebook.com/New2Neat/"><i class="icomoon-facebook"></i></a>
-                                <a href="https://plus.google.com/+ANewtoNeatCleaningCompanyCovington"><i class="icomoon-google-plus"></i></a>
-                                <a href=""><i class="icomoon-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row header-brand-row">
-                <div class="menu-widget menu-widget-default menu-widget-light menu-widget-fade">
-                    <!-- RESPONSIVE TOGGLE MENU START -->
-                    <input type="checkbox" id="toggle-three" name="toggle3" class="menu-widget-togglei">
-                    <label for="toggle-three" class="menu-widget-togglel"><span class="menu-widget-logo"><i class="icon-power2"></i>Insidelab</span><i class="icon-menu7"></i></label>
-                    <!-- RESPONSIVE TOGGLE MENU END -->
-                    <div class="menu-widget-wrapper">
-                        <div class="menu-widget-item menu-widget-left shine">
-                            <a href="/" class="menu-widget-logo"><i class="icon-broom"></i>New<span>2</span>Neat</a>
-                        </div>
-                        <div class="menu-widget-item">
-                            <a href="/#about"><i class="icon-user"></i>About</a>
-                        </div>
-                        <div class="menu-widget-item" id="menu-widget-right-arrow">
-                            <input type="checkbox" id="menu-twelve" name="menu3" class="menu-widget-input">
-                            <label for="menu-twelve" class="menu-widget-label"><i class="icon-office"></i>Services</label>
-                            <ul class="menu-widget-section">
-                                <li><a href="#"><i class="icon-city"></i> Apartment</a></li>
-                                <li><a href="#"><i class="icon-home6"></i> Residential</a></li>
-                                <li><a href="#"><i class="icon-office"></i> Commercial</a></li>
-                                <li><a href="#"><i class="icon-box-add"></i> Move In/Move Out</a></li>
-                                <li><a href="#"><i class="icon-construction"></i> Construction</a></li>
-                                <li><a href="#"><i class="icon-paint-format"></i> Renovation</a></li>
-                            </ul>
-                        </div>
-                        <div class="menu-widget-item">
-                            <a href="/#testimonials"><i class="icon-bubble-dots4"></i>Testimonials</a>
-                        </div>
-                        <div class="menu-widget-item">
-                            <a href="/#ratings"><i class="icon-stars"></i>Ratings</a>
-                        </div>
-                        <div class="menu-widget-item">
-                            <a href="/contact"><i class="icon-phone"></i>Contact</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </header>
-    </div>
-    <div class="container-fluid body-content">
+    <header class="alt-header">
+        @Html.Partial("_NavPartial")
+    </header>
+    <div class="grid-container body-content">
         @RenderBody()
         @Html.Partial("_FooterPartial")
     </div>
