@@ -2,6 +2,9 @@
 	:: BASE STYLES
 	-------------------------------------------------- */
 
+html {
+    font-size: 16px;
+}
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -21,6 +24,11 @@ body {
     top: 1px;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 h1, h2, h5 {
     font-weight: bold;
     letter-spacing: 3px;
@@ -29,22 +37,22 @@ h1, h2, h5 {
 
 h1 {
     color: #fff;
-    font-size: 42px;
+    font-size: 2.625rem;
     font-family: 'Montserrat', sans-serif;
-    line-height: 60px;
+    line-height: 3.75rem;
     text-shadow: 0 0 7px #000000;
 }
 
 h2 {
     color: #4b5b68;
     font-family: 'Raleway', sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     padding: 25px 0;
     text-align: center;
 }
 
 h5 {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .text-left {
@@ -77,7 +85,7 @@ h5 {
 
 .header-contact {
     background-color: #054c61;
-    font-size: 14px;
+    font-size: 0.875rem;
     padding: 10px 20px;
 }
 
@@ -89,6 +97,10 @@ h5 {
     color: #fff;
     display: inline-block;
     padding: 0 10px;
+}
+
+.header-contact.centered {
+    display: none;
 }
 
 .main-header {
@@ -113,15 +125,33 @@ h5 {
 
 .menu-widget .menu-widget-wrapper .menu-widget-item > a.menu-widget-logo {
     color: #51cef5;
-    font-size: 36px;
+    font-size: 2.25rem;
     padding: 0 20px;
 }
     .menu-widget .menu-widget-wrapper .menu-widget-item > a.menu-widget-logo i {
-        font-size: 36px;
+        font-size: 2.25rem;
     }
     .menu-widget .menu-widget-wrapper .menu-widget-item > a.menu-widget-logo span {
         color: #ed7066;
-        font-size: 42px;
+        font-size: 2.625rem;
+    }
+
+.menu-widget .menu-widget-togglel i {
+    margin: 8px 0 0 0;
+}
+
+.menu-widget .menu-widget-togglel .menu-widget-logo {
+    color: #51cef5;
+    font-size: 1.5rem;
+}
+
+    .menu-widget .menu-widget-togglel .menu-widget-logo i {
+        font-size: 1.5rem;
+    }
+
+    .menu-widget .menu-widget-togglel .menu-widget-logo span {
+        color: #ed7066;
+        font-size: 2rem;
     }
 
 header .header-text {
@@ -131,21 +161,17 @@ header .header-text {
 
 header p {
     color: #fff;
-    font-size: 22px;
-    line-height: 48px;
+    font-size: 1.375rem;
+    line-height: 3rem;
     text-align: center;
     text-shadow: 0 0 3px #000;
-}
-
-.header-text .tagline {
-    margin-top: -15px;
 }
 
 .header-btn {
     background: #41a0be;
     color: #fff;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
     margin-top: 20px;
     padding: 12px 20px;
@@ -213,7 +239,7 @@ header p {
 }
 
 .portfolio-widget-item .portfolio-widget-description .facebook-rating {
-    font-size: 33px!important;
+    font-size: 2.5rem!important;
     color: #4267B2!important;
 }
 
@@ -239,7 +265,7 @@ header p {
     #contact .hours, #contact .location, #contact .communication {
         border: #959595 solid 1px;
         color: #fff;
-        font-size: 14px;
+        font-size: 0.875rem;
         padding: 10px;
     }
 
@@ -258,7 +284,7 @@ header p {
 footer {
     background: #023d4f;
     color: #fff;
-    font-size: 12px;
+    font-size: 0.75rem;
     padding-top: 1%;
 }
 
@@ -283,7 +309,7 @@ footer {
     color: #fff;
     cursor: pointer;
     display: none;
-    font-size: 18px;
+    font-size: 1.125rem;
     outline: none;
     padding: 15px;
     position: fixed;
@@ -330,4 +356,105 @@ footer {
 
 .testimonials-widget-default.testimonials-widget-light .testimonials-widget-section blockquote p {
     color: #70828f;
+}
+
+/*	--------------------------------------------------
+	:: Responsive Media Queries Styles
+	-------------------------------------------------- */
+
+@media only screen and (max-width: 412px) and (min-width: 320px) {
+    .main-header {
+        background: url('../images/homepage-sm.png');
+        background-size: cover;
+        height: auto;
+    }
+
+    .header-contact {
+        display: none;
+    }
+
+    .header-contact.centered {
+        display: block;
+        font-size: 1.125em;
+    }
+
+    header .header-text {
+        padding: 20% 10% 0 10%;
+    }
+
+    h1 {
+        font-size: 0.85rem;
+        line-height: 1.5rem;
+    }
+
+    header p {
+        font-size: 0.4rem;
+        line-height: 0.85rem;
+    }
+
+    .header-btn {
+        font-size: 0.85rem;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 6px 10px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    footer .copyright {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 812px) and (min-width: 413px) {
+
+    .main-header {
+        height: 600px;
+    }
+
+    header .header-text {
+        padding: 20% 10% 0 10%;
+    }
+
+    header p {
+        font-size: 1.25rem;
+        line-height: 2.5rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        line-height: 2.625rem;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .testimonial-quote {
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 813px) {
+
+    header .header-text {
+        padding: 35% 10% 0 10%;
+    }
+
+    header p {
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+
+    h1 {
+        color: #fff;
+        font-size: 2.325rem;
+        line-height: 3.45rem;
+    }
+
+    .testimonial-quote {
+        height: 75px;
+    }
 }
