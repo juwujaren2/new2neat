@@ -119,25 +119,24 @@ h5 {
 }
 
 .social-media-icons > a {
-    background: #51cef5;
+    background: #1592b7;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     display: inline-block;
     height: 35px;
     line-height: 35px;
     margin: 12px 5px 5px 12px;
-    opacity: 0.4;
     text-align: center;
     width: 35px;
 }
 
 .social-media-icons a:hover {
-    opacity: 0.7;
+    opacity: 0.4;
     text-decoration: none;
 }
 
 .social-media-icons i {
-    color: #000;
+    color: #fdfdfd;
 }
 
 .menu-widget .menu-widget-wrapper .menu-widget-item > a.menu-widget-logo {
@@ -388,7 +387,7 @@ footer {
     .main-header {
         background: url('../images/homepage-sm.png');
         background-size: cover;
-        height: 500px;
+        height: 625px;
     }
 
     .header-contact {
@@ -405,8 +404,8 @@ footer {
     }
 
     h1 {
-        font-size: 1.25rem;
-        line-height: 1.5rem;
+        font-size: 1.5rem;
+        line-height: 2.25rem;
     }
 
     h2 {
@@ -414,8 +413,8 @@ footer {
     }
 
     header p {
-        font-size: 1rem;
-        line-height: 1.125rem;
+        font-size: 1.2rem;
+        line-height: 1.75rem;
         margin-top: 5px;
     }
 
@@ -438,7 +437,7 @@ footer {
 @media only screen and (max-width: 812px) and (min-width: 413px) {
 
     .main-header {
-        height: 600px;
+        height: 625px;
     }
 
     header .header-text {
