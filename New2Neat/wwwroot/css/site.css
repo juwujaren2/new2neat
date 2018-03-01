@@ -93,6 +93,10 @@ h5 {
         color: #51cef5;
     }
 
+.contact-item {
+    margin-top: 15px;
+}
+
 .separator {
     color: #fff;
     display: inline-block;
@@ -115,12 +119,25 @@ h5 {
 }
 
 .social-media-icons > a {
-    margin-left: 12px;
+    background: #51cef5;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    margin: 12px 5px 5px 12px;
+    opacity: 0.4;
+    text-align: center;
+    width: 35px;
 }
 
 .social-media-icons a:hover {
-    opacity: 0.6;
+    opacity: 0.7;
     text-decoration: none;
+}
+
+.social-media-icons i {
+    color: #000;
 }
 
 .menu-widget .menu-widget-wrapper .menu-widget-item > a.menu-widget-logo {
@@ -152,6 +169,11 @@ h5 {
     .menu-widget .menu-widget-togglel .menu-widget-logo span {
         color: #ed7066;
         font-size: 2rem;
+    }
+
+    .menu-widget .menu-widget-togglel .menu-widget-logo a {
+        color: #51cef5;
+        text-decoration: none;
     }
 
 header .header-text {
@@ -366,7 +388,7 @@ footer {
     .main-header {
         background: url('../images/homepage-sm.png');
         background-size: cover;
-        height: auto;
+        height: 500px;
     }
 
     .header-contact {
@@ -379,17 +401,26 @@ footer {
     }
 
     header .header-text {
-        padding: 20% 10% 0 10%;
+        padding: 20% 1% 0 1%;
     }
 
     h1 {
-        font-size: 0.85rem;
+        font-size: 1.25rem;
         line-height: 1.5rem;
     }
 
+    h2 {
+        font-size: 1.125rem;
+    }
+
     header p {
-        font-size: 0.4rem;
-        line-height: 0.85rem;
+        font-size: 1rem;
+        line-height: 1.125rem;
+        margin-top: 5px;
+    }
+
+    header .main-tagline {
+        display: none;
     }
 
     .header-btn {
@@ -397,10 +428,6 @@ footer {
         margin-top: 15px;
         margin-bottom: 15px;
         padding: 6px 10px;
-    }
-
-    h2 {
-        font-size: 1.5rem;
     }
 
     footer .copyright {
@@ -415,12 +442,12 @@ footer {
     }
 
     header .header-text {
-        padding: 20% 10% 0 10%;
+        padding: 15% 5% 0 5%;
     }
 
     header p {
-        font-size: 1.25rem;
-        line-height: 2.5rem;
+        font-size: 1rem;
+        line-height: 1.875rem;
     }
 
     h1 {
@@ -455,6 +482,6 @@ footer {
     }
 
     .testimonial-quote {
-        height: 75px;
+        height: 100px;
     }
 }
