@@ -213,8 +213,7 @@ header p {
 
 #testimonials {
     background: #d3cfcf;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 20px 20px 0 20px;
 }
 
 .testimonial-quote {
@@ -225,17 +224,8 @@ header p {
 :: SERVICES SECTION
 -------------------------------------------------- */
 
-#services .services-row {
-    margin-bottom: 25px;
-}
-
-#services .services-item {
-    text-align: center;
-}
-
-#services .grid-row {
-    padding-left: 10%;
-    padding-right: 10%;
+#services {
+    padding: 20px 20px 0 20px;
 }
 
 /*	--------------------------------------------------
@@ -252,7 +242,7 @@ header p {
 	-------------------------------------------------- */
 
 #ratings {
-    padding: 0 40px;
+    padding: 20px 20px 0 20px;
 }
 
 .portfolio-widget .portfolio-widget-media .portfolio-widget-item {
@@ -268,6 +258,10 @@ header p {
     color: #51cef5!important;
 }
 
+.item-xs-paddingr0 {
+    padding-right: 0;
+}
+
 /*	--------------------------------------------------
 	:: CONTACT SECTION
 	-------------------------------------------------- */
@@ -277,26 +271,17 @@ header p {
     padding: 20px 20px 0 20px;
 }
 
-    #contact h5 {
-        border: #959595 solid 1px;
-        color: #fff;
-        padding: 10px;
+    #contact .info-boxes-widget, .info-boxes-widget .info-boxes-widget-description {
+        padding-bottom: 20px;
     }
 
-    #contact .hours, #contact .location, #contact .communication {
-        border: #959595 solid 1px;
-        color: #fff;
-        font-size: 0.875rem;
-        padding: 10px;
+    #contact .info-boxes-widget-default.info-boxes-widget-blue .info-boxes-widget-description .info-boxes-widget-media {
+        background-color: #086e8c;
     }
 
-.contact-widget-default.contact-widget-light .contact-widget-header i {
-    color: #51cef5;
-}
-
-.contact-widget-container {
-    margin: 10px auto;
-}
+        #contact .info-boxes-widget-default.info-boxes-widget-blue .info-boxes-widget-description .info-boxes-widget-media:before {
+            box-shadow: 0 0 0 4px #086e8c;
+        }
 
 /*	--------------------------------------------------
 	:: FOOTER SECTION
