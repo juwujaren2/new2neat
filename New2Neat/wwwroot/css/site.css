@@ -234,7 +234,7 @@ header p {
 
 #about {
     background: #d3cfcf;
-    margin-top: 5px;
+    margin: 20px 20px 0 20px;
 }
 
 /*	--------------------------------------------------
@@ -256,6 +256,10 @@ header p {
 
 .portfolio-widget-item .portfolio-widget-description i {
     color: #51cef5!important;
+}
+
+.portfolio-widget .portfolio-widget-media .portfolio-widget-item .portfolio-widget-description a:hover {
+    opacity: 0.5;
 }
 
 .item-xs-paddingr0 {
