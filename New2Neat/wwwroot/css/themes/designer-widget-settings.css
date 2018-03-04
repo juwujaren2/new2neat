@@ -1215,6 +1215,136 @@
 				    transform:translateY(-60%);
 		}
 
+/*	--------------------------------------------------
+	:: Media Images
+	-------------------------------------------------- */
+
+/*	--------------------------------------------------
+			:: Media Images Container
+			-------------------------------------------------- */
+
+.media-image-widget {
+    position: relative;
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+    /*	--------------------------------------------------
+			:: Media Images Configurations
+			-------------------------------------------------- */
+
+    .media-image-widget .media-image-box {
+        position: relative;
+        display: block;
+        margin: 0;
+        height: 0;
+        width: 100%;
+        overflow: hidden;
+        padding-bottom: 70%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+        .media-image-widget .media-image-box img {
+            position: absolute;
+            margin: 0;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+/*	--------------------------------------------------
+	:: Media Video
+	-------------------------------------------------- */
+
+/*	--------------------------------------------------
+			:: Media Video Container
+			-------------------------------------------------- */
+
+.media-video-widget {
+    position: relative;
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+    /*	--------------------------------------------------
+			:: Media Video Configurations
+			-------------------------------------------------- */
+
+    .media-video-widget .media-video-box {
+        position: relative;
+        display: block;
+        margin: 0;
+        height: 0;
+        width: 100%;
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+        .media-video-widget .media-video-box iframe,
+        .media-video-widget .media-video-box embed,
+        .media-video-widget .media-video-box object,
+        .media-video-widget .media-video-box video {
+            position: absolute;
+            margin: 0;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+/*	--------------------------------------------------
+	:: Media Audio
+	-------------------------------------------------- */
+
+/*	--------------------------------------------------
+			:: Media Audio Container
+			-------------------------------------------------- */
+
+.media-audio-widget {
+    position: relative;
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+    /*	--------------------------------------------------
+			:: Media Audio Configurations
+			-------------------------------------------------- */
+
+    .media-audio-widget .media-audio-box audio {
+        position: relative;
+        display: block;
+        margin: 0;
+        width: 100%;
+        overflow: hidden;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+
 	/*	--------------------------------------------------
 		:: Contact Widget Pre Header
 		-------------------------------------------------- */				

@@ -74,6 +74,12 @@ h5 {
 	:: HEADER SECTION
 	-------------------------------------------------- */
 
+.header-contact {
+    background-color: #054c61;
+    font-size: 0.875rem;
+    padding: 10px 20px;
+}
+
 .header-contact a, .header-contact {
     color: #fff;
 }
@@ -82,15 +88,9 @@ h5 {
         text-decoration: none;
     }
 
-.header-contact a:hover {
-    opacity: 0.6;
-}
-
-.header-contact {
-    background-color: #054c61;
-    font-size: 0.875rem;
-    padding: 10px 20px;
-}
+        .header-contact a:hover {
+            opacity: 0.6;
+        }
 
     .header-contact i {
         color: #51cef5;
@@ -409,7 +409,7 @@ footer {
     .main-header {
         background: url('../images/homepage-sm.png');
         background-size: cover;
-        height: 625px;
+        height: auto;
     }
 
     .header-contact {
@@ -418,7 +418,7 @@ footer {
 
     .header-contact.centered {
         display: block;
-        font-size: 1.125em;
+        font-size: 0.875em;
     }
 
     header .header-text {
@@ -459,11 +459,15 @@ footer {
 @media only screen and (max-width: 812px) and (min-width: 413px) {
 
     .main-header {
-        height: 625px;
+        height: auto;
+    }
+
+    header-contact {
+        font-size: 0.875em;
     }
 
     header .header-text {
-        padding: 15% 5% 0 5%;
+        padding: 5%;
     }
 
     header p {

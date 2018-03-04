@@ -119,6 +119,7 @@
             .tabs-widget > .tabs-widget-tab > .tabs-widget-section {
                 position: relative;
                 display: inline-block;
+                left: 0;
                 overflow: hidden;
                 margin: 0;
                 padding: 0;
@@ -456,6 +457,7 @@
             .tabs-widget > .tabs-widget-tab > .tabs-widget-section {
                 position: relative;
                 display: inline-block;
+                left: 0;
                 overflow: hidden;
                 margin: 0;
                 padding: 0;
