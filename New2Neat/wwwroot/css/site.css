@@ -9,6 +9,9 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.clearfix {
+    clear: both;
+}
 .container-fluid {
     padding: 0;
     overflow: hidden;
@@ -356,6 +359,14 @@ footer {
         opacity: 0.4;
         text-decoration: none;
     }
+
+/*	--------------------------------------------------
+	:: Porfolio-Widget-Flat Override Styles
+	-------------------------------------------------- */
+
+.portfolio-widget-flat.portfolio-widget-blue .portfolio-widget-media .portfolio-widget-item .portfolio-widget-media-holder .portfolio-widget-media-caption {
+    background-color: rgba(6, 147, 189, 0.8);
+}
 
 /*	--------------------------------------------------
 	:: Hover-Effects-Widget Override Styles

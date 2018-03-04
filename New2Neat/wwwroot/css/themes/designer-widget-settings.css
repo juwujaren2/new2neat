@@ -5407,6 +5407,235 @@
         }
 
 /*	--------------------------------------------------
+	:: Portfolio Widget Wrapper
+	-------------------------------------------------- */
+
+.portfolio-widget-wrapper {
+    position: relative;
+    display: block;
+    max-width: 1200px; /* REMOVE THIS IF YOU DON´T NEED PORTFOLIO WRAPPER 1200PX */
+    width: 100%;
+    margin: 50px auto;
+    padding: 30px;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*	--------------------------------------------------
+	:: Portfolio Widget
+	-------------------------------------------------- */
+
+/*	--------------------------------------------------
+			:: Portfolio Widget Filters
+			-------------------------------------------------- */
+
+.portfolio-widget {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+    width: 100%;
+}
+
+    /*	--------------------------------------------------
+			:: Portfolio Widget Itens
+			-------------------------------------------------- */
+
+    .portfolio-widget .portfolio-widget-media {
+        position: relative;
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+        .portfolio-widget .portfolio-widget-media .portfolio-widget-item {
+            position: relative;
+            display: block;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            -webkit-transition: all 1s ease-in-out;
+            -moz-transition: all 1s ease-in-out;
+            transition: all 1s ease-in-out;
+        }
+
+            /*	--------------------------------------------------
+			:: Portfolio Widget Captions
+			-------------------------------------------------- */
+
+            .portfolio-widget .portfolio-widget-media .portfolio-widget-item .portfolio-widget-media-holder,
+            .portfolio-widget .portfolio-widget-media .portfolio-widget-item .portfolio-widget-media-holder img {
+                position: relative;
+                display: block;
+                margin: 0;
+                height: 0;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+                -webkit-transition: all 0.6s ease-in-out;
+                -moz-transition: all 0.6s ease-in-out;
+                transition: all 0.6s ease-in-out;
+            }
+
+                .portfolio-widget .portfolio-widget-media .portfolio-widget-item .portfolio-widget-media-holder .portfolio-widget-media-caption {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    margin: 0;
+                    padding: 0;
+                    width: 100%;
+                    height: 100%;
+                    overflow: hidden;
+                    -webkit-box-sizing: border-box;
+                    -moz-box-sizing: border-box;
+                    box-sizing: border-box;
+                    -webkit-transition: all 0.6s ease-in-out;
+                    -moz-transition: all 0.6s ease-in-out;
+                    transition: all 0.6s ease-in-out;
+                }
+
+                .portfolio-widget .portfolio-widget-media .portfolio-widget-item .portfolio-widget-media-holder .portfolio-widget-media-description {
+                    position: absolute;
+                    display: block;
+                    padding: 0;
+                    top: 50%;
+                    left: 60px;
+                    right: 60px;
+                    text-align: center;
+                    -webkit-box-sizing: border-box;
+                    -moz-box-sizing: border-box;
+                    box-sizing: border-box;
+                    -webkit-transform: translateY(-50%);
+                    -moz-transform: translateY(-50%);
+                    transform: translateY(-50%);
+                    -webkit-transition: all 0.6s ease-in-out;
+                    -moz-transition: all 0.6s ease-in-out;
+                    transition: all 0.6s ease-in-out;
+                }
+
+                    .portfolio-widget .portfolio-widget-media .portfolio-widget-item .portfolio-widget-media-holder .portfolio-widget-media-description h4 {
+                        text-transform: uppercase;
+                        font-family: "Roboto";
+                        font-size: 17px;
+                        font-weight: 900;
+                        font-style: normal;
+                        line-height: 24px;
+                        margin: 0 0 7px 0;
+                    }
+
+                    .portfolio-widget .portfolio-widget-media .portfolio-widget-item .portfolio-widget-media-holder .portfolio-widget-media-description span {
+                        text-transform: uppercase;
+                        font-family: "Raleway";
+                        font-size: 16px;
+                        font-weight: 400;
+                        font-style: normal;
+                        line-height: 24px;
+                        margin: 0 0 7px 0;
+                    }
+
+                    .portfolio-widget .portfolio-widget-media .portfolio-widget-item .portfolio-widget-media-holder .portfolio-widget-media-description p {
+                        text-transform: uppercase;
+                        font-family: "Raleway";
+                        font-size: 11px;
+                        font-weight: 400;
+                        font-style: normal;
+                        line-height: 20px;
+                        -webkit-transition: all 0.6s ease-in-out;
+                        -moz-transition: all 0.6s ease-in-out;
+                        transition: all 0.6s ease-in-out;
+                    }
+
+                    .portfolio-widget .portfolio-widget-media .portfolio-widget-item .portfolio-widget-media-holder .portfolio-widget-media-description a {
+                        position: relative;
+                        display: inline-block;
+                        padding: 0;
+                        margin: 10px 5px 0 5px;
+                        text-decoration: none;
+                        -webkit-transition: all 0.6s ease-in-out;
+                        -moz-transition: all 0.6s ease-in-out;
+                        transition: all 0.6s ease-in-out;
+                    }
+
+                    .portfolio-widget .portfolio-widget-media .portfolio-widget-item .portfolio-widget-media-holder .portfolio-widget-media-description i {
+                        font-size: 18px;
+                        font-weight: normal;
+                        font-style: normal;
+                        vertical-align: baseline;
+                        -webkit-transition: all 0.6s ease-in-out;
+                        -moz-transition: all 0.6s ease-in-out;
+                        transition: all 0.6s ease-in-out;
+                    }
+
+            /*	--------------------------------------------------
+			:: Portfolio Widget Description
+			-------------------------------------------------- */
+
+            .portfolio-widget .portfolio-widget-media .portfolio-widget-item .portfolio-widget-description {
+                position: relative;
+                display: block;
+                padding: 30px;
+                margin: 0 auto 0.50rem auto;
+                text-align: center;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+
+                .portfolio-widget .portfolio-widget-media .portfolio-widget-item .portfolio-widget-description h4 {
+                    text-transform: uppercase;
+                    font-family: "Roboto";
+                    font-size: 17px;
+                    font-weight: 900;
+                    font-style: normal;
+                    line-height: 24px;
+                    margin: 0 0 20px 0;
+                }
+
+                .portfolio-widget .portfolio-widget-media .portfolio-widget-item .portfolio-widget-description span {
+                    text-transform: uppercase;
+                    font-family: "Raleway";
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-style: normal;
+                    line-height: 24px;
+                    margin: 0 0 20px 0;
+                }
+
+                .portfolio-widget .portfolio-widget-media .portfolio-widget-item .portfolio-widget-description p {
+                    text-transform: uppercase;
+                    font-family: "Raleway";
+                    font-size: 11px;
+                    font-weight: 400;
+                    font-style: normal;
+                    line-height: 20px;
+                }
+
+                .portfolio-widget .portfolio-widget-media .portfolio-widget-item .portfolio-widget-description .portfolio-widget-description-border:before {
+                    position: absolute;
+                    content: "";
+                    top: 60px;
+                    width: 20%;
+                    left: 50%;
+                    -webkit-transform: translateX(-50%);
+                    -moz-transform: translateX(-50%);
+                    transform: translateX(-50%);
+                    -webkit-transition: all 0.6s ease-in-out;
+                    -moz-transition: all 0.6s ease-in-out;
+                    transition: all 0.6s ease-in-out;
+                }
+			
+
+/*	--------------------------------------------------
 	:: Slider Widget Wrapper
 	-------------------------------------------------- */
 
