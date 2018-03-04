@@ -91,7 +91,63 @@
 		.info-boxes-widget-default.info-boxes-widget-light .info-boxes-widget-description.info-boxes-widget-borderr{
 			border-right:none;
 		}
-		
+
+        .tabs-widget > .tabs-widget-tab {
+            display: inline;
+        }
+
+            .tabs-widget > .tabs-widget-tab > .tabs-widget-label {
+                position: relative;
+                display: inline-block;
+                width: 100%;
+                margin: 4px 0 0 0;
+            }
+
+                .tabs-widget > .tabs-widget-tab > .tabs-widget-label,
+                .tabs-widget > .tabs-widget-tab > .tabs-widget-label > .tabs-widget-header {
+                    text-align: center;
+                }
+
+            .tabs-widget > .tabs-widget-tab.tabs-widget-arrow > .tabs-widget-input:checked + .tabs-widget-label:before {
+                display: none;
+            }
+
+            .tabs-widget > .tabs-widget-tab > .tabs-widget-section {
+                position: relative;
+                display: inline-block;
+                overflow: hidden;
+                margin: 0;
+                padding: 0;
+                width: 0;
+                height: 0;
+            }
+
+                .tabs-widget > .tabs-widget-tab > .tabs-widget-section > .tabs-widget-section-content {
+                    position: relative;
+                    display: block;
+                    float: left;
+                    width: 100%;
+                    padding: 30px;
+                    opacity: 0;
+                    visibility: hidden;
+                    -webkit-box-sizing: border-box;
+                    -moz-box-sizing: border-box;
+                    box-sizing: border-box;
+                }
+
+            .tabs-widget > .tabs-widget-tab > .tabs-widget-input:checked ~ .tabs-widget-section {
+                display: inline;
+            }
+
+        .slider-widget .slider-widget-arrows .slider-widget-prev,
+        .slider-widget .slider-widget-arrows .slider-widget-next {
+            display: none;
+        }
+
+        .slider-widget .slider-widget-caption-holder .slider-widget-caption {
+            display: none;
+        }
+
     /*	--------------------------------------------------
 		:: Navigation Widget Toggle Hide on Desktop
 		-------------------------------------------------- */	
@@ -368,7 +424,58 @@
 			display:block;
             margin:0 0 20px 0;			
 		}
-		
+
+        .tabs-widget > .tabs-widget-tab {
+            display: inline;
+        }
+
+            .tabs-widget > .tabs-widget-tab > .tabs-widget-label {
+                position: relative;
+                display: inline-block;
+                width: 100%;
+                margin: 4px 0 0 0;
+            }
+
+                .tabs-widget > .tabs-widget-tab > .tabs-widget-label,
+                .tabs-widget > .tabs-widget-tab > .tabs-widget-label > .tabs-widget-header {
+                    text-align: center;
+                }
+
+            .tabs-widget > .tabs-widget-tab.tabs-widget-arrow > .tabs-widget-input:checked + .tabs-widget-label:before {
+                display: none;
+            }
+
+            .tabs-widget > .tabs-widget-tab > .tabs-widget-section {
+                position: relative;
+                display: inline-block;
+                overflow: hidden;
+                margin: 0;
+                padding: 0;
+                width: 0;
+                height: 0;
+            }
+
+                .tabs-widget > .tabs-widget-tab > .tabs-widget-section > .tabs-widget-section-content {
+                    position: relative;
+                    display: block;
+                    float: left;
+                    width: 100%;
+                    padding: 30px;
+                    opacity: 0;
+                    visibility: hidden;
+                    -webkit-box-sizing: border-box;
+                    -moz-box-sizing: border-box;
+                    box-sizing: border-box;
+                }
+
+            .tabs-widget > .tabs-widget-tab > .tabs-widget-input:checked ~ .tabs-widget-section {
+                display: inline;
+            }
+
+        .slider-widget .slider-widget-caption-holder .slider-widget-caption {
+            display: none;
+        }
+
     /*	--------------------------------------------------
 		:: Navigation Widget Toggle Hide on Desktop
 		-------------------------------------------------- */	
@@ -590,7 +697,54 @@
 		.portfolio-widget .portfolio-widget-media .portfolio-widget-item .portfolio-widget-media-holder img {
 			height:100%;
 		}
-		
+
+        .tabs-widget > .tabs-widget-tab {
+            display: inline;
+        }
+
+            .tabs-widget > .tabs-widget-tab > .tabs-widget-label {
+                position: relative;
+                display: inline-block;
+                width: 100%;
+                margin: 4px 0 0 0;
+            }
+
+                .tabs-widget > .tabs-widget-tab > .tabs-widget-label,
+                .tabs-widget > .tabs-widget-tab > .tabs-widget-label > .tabs-widget-header {
+                    text-align: center;
+                }
+
+            .tabs-widget > .tabs-widget-tab.tabs-widget-arrow > .tabs-widget-input:checked + .tabs-widget-label:before {
+                display: none;
+            }
+
+            .tabs-widget > .tabs-widget-tab > .tabs-widget-section {
+                position: relative;
+                display: inline-block;
+                overflow: hidden;
+                margin: 0;
+                padding: 0;
+                width: 0;
+                height: 0;
+            }
+
+                .tabs-widget > .tabs-widget-tab > .tabs-widget-section > .tabs-widget-section-content {
+                    position: relative;
+                    display: block;
+                    float: left;
+                    width: 100%;
+                    padding: 30px;
+                    opacity: 0;
+                    visibility: hidden;
+                    -webkit-box-sizing: border-box;
+                    -moz-box-sizing: border-box;
+                    box-sizing: border-box;
+                }
+
+            .tabs-widget > .tabs-widget-tab > .tabs-widget-input:checked ~ .tabs-widget-section {
+                display: inline;
+            }		
+
     /*	--------------------------------------------------
 		:: Navigation Widget Toggle Hide on Desktop
 		-------------------------------------------------- */	
@@ -810,7 +964,54 @@
 		.portfolio-widget .portfolio-widget-media .portfolio-widget-item .portfolio-widget-media-holder img {
 			height:100%;
 		}
-		
+
+        .tabs-widget > .tabs-widget-tab {
+            display: inline;
+        }
+
+            .tabs-widget > .tabs-widget-tab > .tabs-widget-label {
+                position: relative;
+                display: inline-block;
+                width: 100%;
+                margin: 4px 0 0 0;
+            }
+
+                .tabs-widget > .tabs-widget-tab > .tabs-widget-label,
+                .tabs-widget > .tabs-widget-tab > .tabs-widget-label > .tabs-widget-header {
+                    text-align: center;
+                }
+
+            .tabs-widget > .tabs-widget-tab.tabs-widget-arrow > .tabs-widget-input:checked + .tabs-widget-label:before {
+                display: none;
+            }
+
+            .tabs-widget > .tabs-widget-tab > .tabs-widget-section {
+                position: relative;
+                display: inline-block;
+                overflow: hidden;
+                margin: 0;
+                padding: 0;
+                width: 0;
+                height: 0;
+            }
+
+                .tabs-widget > .tabs-widget-tab > .tabs-widget-section > .tabs-widget-section-content {
+                    position: relative;
+                    display: block;
+                    float: left;
+                    width: 100%;
+                    padding: 30px;
+                    opacity: 0;
+                    visibility: hidden;
+                    -webkit-box-sizing: border-box;
+                    -moz-box-sizing: border-box;
+                    box-sizing: border-box;
+                }
+
+            .tabs-widget > .tabs-widget-tab > .tabs-widget-input:checked ~ .tabs-widget-section {
+                display: inline;
+            }
+
     /*	--------------------------------------------------
 		:: Navigation Widget Toggle Hide on Desktop
 		-------------------------------------------------- */	
@@ -996,6 +1197,5 @@
 		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section li .menu-widget-input:checked + .menu-widget-label,
 		.menu-widget-default.menu-widget-light .menu-widget-wrapper .menu-widget-item .menu-widget-section-right li .menu-widget-input:checked + .menu-widget-label {
 			border-top:1px solid #f6f7f9;
-		}
-		
+		}		
     }

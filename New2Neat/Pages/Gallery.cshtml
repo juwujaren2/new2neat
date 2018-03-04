@@ -1,0 +1,67 @@
+@page
+@model GalleryModel
+@{
+    ViewData["Title"] = "Gallery";
+    Layout = "~/Pages/_AltLayout.cshtml";
+}
+
+<div class="slider-widget-wrapper">
+    <div class="slider-widget slider-widget-default slider-widget-blue slider-widget-light slider-widget-fade slider-widget-autoplay">
+
+        <!-- INPUTS OF CONTROLS ARROWS & BULLETS -->
+        <input type="radio" id="slider-widget1" name="slider-widget" class="slider-widget-input" checked="checked">
+        <input type="radio" id="slider-widget2" name="slider-widget" class="slider-widget-input">
+        <input type="radio" id="slider-widget3" name="slider-widget" class="slider-widget-input">
+        <!-- INPUTS OF CONTROLS ARROWS & BULLETS -->
+        <!-- INPUT OF PLAY/PAUSE -->
+        <input type="radio" id="slider-widget-switch1" name="slider-widget" class="slider-widget-switch">
+        <!-- INPUT OF PLAY/PAUSE -->
+        <!-- MEDIAHOLDER OF SLIDES -->
+        <div class="slider-widget-media-holder">
+            <ul>
+                <li><img src="~/images/gallery/gallery-before-after-one.png"></li>
+                <li><img src="~/images/gallery/gallery-before-after-two.png"></li>
+                <li><img src="~/images/gallery//gallery-before-after-three.png"></li>
+            </ul>
+        </div>
+        <!-- MEDIAHOLDER OF SLIDES -->
+        <!-- CAPTIONS OF SLIDES -->
+        <div class="slider-widget-caption-holder">
+            <ul>
+                <li><div class="slider-widget-caption slider-widget-caption-top-left"><h4>Toilet - Before &amp; After</h4><p>Residential Cleaning: Bathroom</p></div></li>
+                <li><div class="slider-widget-caption slider-widget-caption-top-left"><h4>Refrigerator - Before &amp; After</h4><p>Residential Cleaning: Kitchen</p></div></li>
+                <li><div class="slider-widget-caption slider-widget-caption-top-left"><h4>Sink - Before &amp; After</h4><p>Residential Cleaning: Bathroom</p></div></li>
+            </ul>
+        </div>
+        <!-- CAPTIONS OF SLIDES -->
+        <!-- CONTROLS ARROWS -->
+        <div class="slider-widget-arrows">
+            <label for="slider-widget1" class="slider-widget-prev"><img src="~/images/gallery/thumbs/gallery-before-after-thumbs-one.png"></label>
+            <label for="slider-widget2" class="slider-widget-prev"><img src="~/images/gallery/thumbs/gallery-before-after-thumbs-two.png"></label>
+            <label for="slider-widget3" class="slider-widget-prev"><img src="~/images/gallery/thumbs/gallery-before-after-thumbs-three.png"></label>
+        </div>
+        <div class="slider-widget-arrows">
+            <label for="slider-widget1" class="slider-widget-next"><img src="~/images/gallery/thumbs/gallery-before-after-thumbs-one.png"></label>
+            <label for="slider-widget2" class="slider-widget-next"><img src="~/images/gallery/thumbs/gallery-before-after-thumbs-two.png"></label>
+            <label for="slider-widget3" class="slider-widget-next"><img src="~/images/gallery/thumbs/gallery-before-after-thumbs-three.png"></label>
+        </div>
+        <!-- CONTROLS ARROWS -->
+        <!-- CONTROLS BULLETS -->
+        <div class="slider-widget-bullets">
+            <ul>
+                <li><label for="slider-widget1" class="slider-widget-bullet"></label></li>
+                <li><label for="slider-widget2" class="slider-widget-bullet"></label></li>
+                <li><label for="slider-widget3" class="slider-widget-bullet"></label></li>
+            </ul>
+        </div>
+        <!-- CONTROLS BULLETS -->
+        <!-- AUTOPLAY PLAY/PAUSE -->
+        <div class="slider-widget-autoplay-control">
+            <label for="slider-widget-switch1" class="slider-widget-switch-label"></label>
+        </div>
+        <!-- AUTOPLAY PLAY/PAUSE -->
+        <!-- PROGRESS TIMER -->
+        <div class="slider-widget-progress-timer"></div>
+        <!-- PROGRESS TIMER -->
+    </div>
+</div>

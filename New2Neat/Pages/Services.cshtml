@@ -1,0 +1,127 @@
+@page
+@model ServicesModel
+@{
+    ViewData["Title"] = "Services";
+    Layout = "~/Pages/_AltLayout.cshtml";
+}
+
+<div class="tabs-widget-wrapper">
+    <div class="tabs-widget tabs-widget-flat tabs-widget-blue tabs-widget-dark tabs-widget-fade">
+        <div class="tabs-widget-tab tabs-widget-arrow">
+            <input type="radio" id="apartment" name="tabs" checked="checked" class="tabs-widget-input">
+            <label for="apartment" class="tabs-widget-label"><div class="tabs-widget-header"><i class="icomoon-city"></i>Apartment</div></label>
+            <div class="tabs-widget-section">
+                <div class="tabs-widget-section-content">
+                    <div class="grid-container">
+                        <div class="grid-row">
+                            <div class="grid-item item-md-12">
+                                <img src="~/images/apartment-wide.png" />
+                                <h4>Apartment Cleaning</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstra lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuedium.</p>
+                                <p>Dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstra lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuedium.</p>
+                                <p>Dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tabs-widget-tab tabs-widget-arrow">
+            <input type="radio" id="residential" name="tabs" class="tabs-widget-input">
+            <label for="residential" class="tabs-widget-label"><div class="tabs-widget-header"><i class="icomoon-home6"></i>Residential</div></label>
+            <div class="tabs-widget-section">
+                <div class="tabs-widget-section-content">
+                    <div class="grid-container">
+                        <div class="grid-row">
+                            <div class="grid-item item-md-12">
+                                <img src="~/images/residential-wide.png" />
+                                <h4>Residential Cleaning</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstra lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuedium.</p>
+                                <p>Dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstra lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuedium.</p>
+                                <p>Dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tabs-widget-tab tabs-widget-arrow">
+            <input type="radio" id="commercial" name="tabs" class="tabs-widget-input">
+            <label for="commercial" class="tabs-widget-label"><div class="tabs-widget-header"><i class="icomoon-office"></i>Commercial</div></label>
+            <div class="tabs-widget-section">
+                <div class="tabs-widget-section-content">
+                    <div class="grid-container">
+                        <div class="grid-row">
+                            <div class="grid-item item-md-12">
+                                <img src="~/images/commercial-wide.png" />
+                                <h4>Commercial Cleaning</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstra lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuedium.</p>
+                                <p>Dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstra lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuedium.</p>
+                                <p>Dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tabs-widget-tab tabs-widget-arrow">
+            <input type="radio" id="moving" name="tabs" class="tabs-widget-input">
+            <label for="moving" class="tabs-widget-label"><div class="tabs-widget-header"><i class="icomoon-box-add"></i>Move In/Move Out</div></label>
+            <div class="tabs-widget-section">
+                <div class="tabs-widget-section-content">
+                    <div class="grid-container">
+                        <div class="grid-row">
+                            <div class="grid-item item-md-12">
+                                <img src="~/images/moving-wide.png" />
+                                <h4>Move In/Move Out</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstra lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuedium.</p>
+                                <p>Dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstra lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuedium.</p>
+                                <p>Dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tabs-widget-tab tabs-widget-arrow">
+            <input type="radio" id="construction" name="tabs" class="tabs-widget-input">
+            <label for="construction" class="tabs-widget-label"><div class="tabs-widget-header"><i class="icomoon-construction"></i>Construction</div></label>
+            <div class="tabs-widget-section">
+                <div class="tabs-widget-section-content">
+                    <div class="grid-container">
+                        <div class="grid-row">
+                            <div class="grid-item item-md-12">
+                                <img src="~/images/construction-wide.png" />
+                                <h4>After Construction</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstra lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuedium.</p>
+                                <p>Dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstra lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuedium.</p>
+                                <p>Dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tabs-widget-tab tabs-widget-arrow">
+            <input type="radio" id="renovation" name="tabs" class="tabs-widget-input">
+            <label for="renovation" class="tabs-widget-label"><div class="tabs-widget-header"><i class="icomoon-paint-format"></i>Renovation</div></label>
+            <div class="tabs-widget-section">
+                <div class="tabs-widget-section-content">
+                    <div class="grid-container">
+                        <div class="grid-row">
+                            <div class="grid-item item-md-12">
+                                <img src="~/images/renovation-wide.png" />
+                                <h4>After Renovation</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstra lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuedium.</p>
+                                <p>Dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstra lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuedium.</p>
+                                <p>Dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

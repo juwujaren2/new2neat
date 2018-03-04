@@ -175,6 +175,10 @@ h5 {
         text-decoration: none;
     }
 
+.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-label a {
+    text-decoration: none;
+}
+
 header .header-text {
     padding: 18% 18% 0 18%;
     text-shadow: 2px 2px 2px #000;
@@ -207,6 +211,11 @@ header p {
     text-decoration: none;
 }
 
+.menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section {
+    z-index: 150;
+}
+
+
 /*	--------------------------------------------------
 	:: TESTIMONIALS SECTION
 	-------------------------------------------------- */
@@ -226,6 +235,19 @@ header p {
 
 #services {
     padding: 20px 20px 0 20px;
+}
+
+.tabs-widget-flat.tabs-widget-dark > .tabs-widget-tab > .tabs-widget-label {
+    background-color: #054c61;
+    border: 5px solid #054c61;
+}
+
+.tabs-widget-flat.tabs-widget-blue > .tabs-widget-tab > .tabs-widget-input:checked + .tabs-widget-label > .tabs-widget-header, .tabs-widget-flat.tabs-widget-blue > .tabs-widget-tab > .tabs-widget-input:checked + .tabs-widget-label > .tabs-widget-header i {
+    background-color: #0d9dc7;
+}
+
+.tabs-widget-flat.tabs-widget-blue > .tabs-widget-tab > .tabs-widget-input:checked + .tabs-widget-label {
+    border: 5px solid #0d9dc7;
 }
 
 /*	--------------------------------------------------
