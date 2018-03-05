@@ -1,11 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using New2Neat.Services;
 
 namespace New2Neat
 {
@@ -22,6 +19,7 @@ namespace New2Neat
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddTransient<IMailService, SmtpMailService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -4188,3 +4188,333 @@
 	.contact-widget-default.contact-widget-light .contact-widget-footer .contact-widget-copyright i { 	
 		color:#92a3b0;		 
 	}
+/*	--------------------------------------------------
+	:: Messages Blue
+	-------------------------------------------------- */
+
+.message-group .message-widget-default.message-widget-blue {
+    background-color: #6bbef8;
+    border: 1px solid #4ba7e7;
+}
+
+    .message-group .message-widget-default.message-widget-blue p,
+    .message-group .message-widget-default.message-widget-blue i,
+    .message-group .message-widget-default.message-widget-blue .message-widget-close i {
+        color: #fdfdfd;
+    }
+
+/*	--------------------------------------------------
+	:: Messages Green
+	-------------------------------------------------- */
+
+.message-group .message-widget-default.message-widget-green {
+    background-color: #6ed790;
+    border: 1px solid #47c871;
+}
+
+    .message-group .message-widget-default.message-widget-green p,
+    .message-group .message-widget-default.message-widget-green i,
+    .message-group .message-widget-default.message-widget-green .message-widget-close i {
+        color: #fdfdfd;
+    }
+
+/*	--------------------------------------------------
+	:: Messages Red
+	-------------------------------------------------- */
+
+.message-group .message-widget-default.message-widget-red {
+    background-color: #ed7066;
+    border: 1px solid #e76258;
+}
+
+    .message-group .message-widget-default.message-widget-red p,
+    .message-group .message-widget-default.message-widget-red i,
+    .message-group .message-widget-default.message-widget-red .message-widget-close i {
+        color: #fdfdfd;
+    }
+
+/*	--------------------------------------------------
+	:: Messages Orange
+	-------------------------------------------------- */
+
+.message-group .message-widget-default.message-widget-orange {
+    background-color: #f6a258;
+    border: 1px solid #ec8f3c;
+}
+
+    .message-group .message-widget-default.message-widget-orange p,
+    .message-group .message-widget-default.message-widget-orange i,
+    .message-group .message-widget-default.message-widget-orange .message-widget-close i {
+        color: #fdfdfd;
+    }
+
+/*	--------------------------------------------------
+	:: Messages Purple
+	-------------------------------------------------- */
+
+.message-group .message-widget-default.message-widget-purple {
+    background-color: #f36e93;
+    border: 1px solid #e9547e;
+}
+
+    .message-group .message-widget-default.message-widget-purple p,
+    .message-group .message-widget-default.message-widget-purple i,
+    .message-group .message-widget-default.message-widget-purple .message-widget-close i {
+        color: #fdfdfd;
+    }
+
+/*	--------------------------------------------------
+	:: Messages Descriptive Blue
+	-------------------------------------------------- */
+
+.message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-blue {
+    background-color: #6bbef8;
+    border: 1px solid #4ba7e7;
+}
+
+    .message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-blue h4,
+    .message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-blue p,
+    .message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-blue i,
+    .message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-blue .message-widget-descriptive-close i {
+        color: #fdfdfd;
+    }
+
+    .message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-blue .message-widget-descriptive-divider {
+        border-bottom: 1px solid #fdfdfd;
+    }
+
+/*	--------------------------------------------------
+	:: Messages Descriptive Green
+	-------------------------------------------------- */
+
+.message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-green {
+    background-color: #6ed790;
+    border: 1px solid #47c871;
+}
+
+    .message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-green h4,
+    .message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-green p,
+    .message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-green i,
+    .message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-green .message-widget-descriptive-close i {
+        color: #fdfdfd;
+    }
+
+    .message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-green .message-widget-descriptive-divider {
+        border-bottom: 1px solid #fdfdfd;
+    }
+
+/*	--------------------------------------------------
+	:: Messages Descriptive Red
+	-------------------------------------------------- */
+
+.message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-red {
+    background-color: #ed7066;
+    border: 1px solid #e76258;
+}
+
+    .message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-red h4,
+    .message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-red p,
+    .message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-red i,
+    .message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-red .message-widget-descriptive-close i {
+        color: #fdfdfd;
+    }
+
+    .message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-red .message-widget-descriptive-divider {
+        border-bottom: 1px solid #fdfdfd;
+    }
+
+/*	--------------------------------------------------
+	:: Messages Descriptive Orange
+	-------------------------------------------------- */
+
+.message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-orange {
+    background-color: #f6a258;
+    border: 1px solid #ec8f3c;
+}
+
+    .message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-orange h4,
+    .message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-orange p,
+    .message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-orange i,
+    .message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-orange .message-widget-descriptive-close i {
+        color: #fdfdfd;
+    }
+
+    .message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-orange .message-widget-descriptive-divider {
+        border-bottom: 1px solid #fdfdfd;
+    }
+
+/*	--------------------------------------------------
+	:: Messages Descriptive Purple
+	-------------------------------------------------- */
+
+.message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-purple {
+    background-color: #f36e93;
+    border: 1px solid #e9547e;
+}
+
+    .message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-purple h4,
+    .message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-purple p,
+    .message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-purple i,
+    .message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-purple .message-widget-descriptive-close i {
+        color: #fdfdfd;
+    }
+
+    .message-descriptive-group .message-widget-descriptive-default.message-widget-descriptive-purple .message-widget-descriptive-divider {
+        border-bottom: 1px solid #fdfdfd;
+    }
+
+/*	--------------------------------------------------
+	:: Multipurpose Buttons Blue
+	-------------------------------------------------- */
+
+.multipurpose-buttons-widget-blue {
+    background-color: #6bbef8;
+}
+
+    .multipurpose-buttons-widget-blue .multipurpose-buttons-widget-media i,
+    .multipurpose-buttons-widget-blue .multipurpose-buttons-widget-description h4,
+    .multipurpose-buttons-widget-blue .multipurpose-buttons-widget-description p {
+        text-shadow: 1px 1px #adbbc5;
+        color: #fdfdfd;
+    }
+
+/*	--------------------------------------------------
+	:: Multipurpose Buttons Green
+	-------------------------------------------------- */
+
+.multipurpose-buttons-widget-green {
+    background-color: #6ed790;
+}
+
+    .multipurpose-buttons-widget-green .multipurpose-buttons-widget-media i,
+    .multipurpose-buttons-widget-green .multipurpose-buttons-widget-description h4,
+    .multipurpose-buttons-widget-green .multipurpose-buttons-widget-description p {
+        text-shadow: 1px 1px #adbbc5;
+        color: #fdfdfd;
+    }
+
+/*	--------------------------------------------------
+	:: Multipurpose Buttons Red
+	-------------------------------------------------- */
+
+.multipurpose-buttons-widget-red {
+    background-color: #ed7066;
+}
+
+    .multipurpose-buttons-widget-red .multipurpose-buttons-widget-media i,
+    .multipurpose-buttons-widget-red .multipurpose-buttons-widget-description h4,
+    .multipurpose-buttons-widget-red .multipurpose-buttons-widget-description p {
+        text-shadow: 1px 1px #adbbc5;
+        color: #fdfdfd;
+    }
+
+/*	--------------------------------------------------
+	:: Multipurpose Buttons Orange
+	-------------------------------------------------- */
+
+.multipurpose-buttons-widget-orange {
+    background-color: #f6a258;
+}
+
+    .multipurpose-buttons-widget-orange .multipurpose-buttons-widget-media i,
+    .multipurpose-buttons-widget-orange .multipurpose-buttons-widget-description h4,
+    .multipurpose-buttons-widget-orange .multipurpose-buttons-widget-description p {
+        text-shadow: 1px 1px #adbbc5;
+        color: #fdfdfd;
+    }
+
+/*	--------------------------------------------------
+	:: Multipurpose Buttons Purple
+	-------------------------------------------------- */
+
+.multipurpose-buttons-widget-purple {
+    background-color: #f36e93;
+}
+
+    .multipurpose-buttons-widget-purple .multipurpose-buttons-widget-media i,
+    .multipurpose-buttons-widget-purple .multipurpose-buttons-widget-description h4,
+    .multipurpose-buttons-widget-purple .multipurpose-buttons-widget-description p {
+        text-shadow: 1px 1px #adbbc5;
+        color: #fdfdfd;
+    }
+
+/*	--------------------------------------------------
+	:: Multipurpose Buttons Hover / Focus / Active Blue
+	-------------------------------------------------- */
+
+.multipurpose-buttons-widget-blue:hover,
+.multipurpose-buttons-widget-blue:focus,
+.multipurpose-buttons-widget-blue:active {
+    background-color: #4ba7e7;
+}
+
+/*	--------------------------------------------------
+	:: Multipurpose Buttons Hover / Focus / Active Green
+	-------------------------------------------------- */
+
+.multipurpose-buttons-widget-green:hover,
+.multipurpose-buttons-widget-green:focus,
+.multipurpose-buttons-widget-green:active {
+    background-color: #47c871;
+}
+
+/*	--------------------------------------------------
+	:: Multipurpose Buttons Hover / Focus / Active Red
+	-------------------------------------------------- */
+
+.multipurpose-buttons-widget-red:hover,
+.multipurpose-buttons-widget-red:focus,
+.multipurpose-buttons-widget-red:active {
+    background-color: #e76258;
+}
+
+/*	--------------------------------------------------
+	:: Multipurpose Buttons Hover / Focus / Active Orange
+	-------------------------------------------------- */
+
+.multipurpose-buttons-widget-orange:hover,
+.multipurpose-buttons-widget-orange:focus,
+.multipurpose-buttons-widget-orange:active {
+    background-color: #ec8f3c;
+}
+
+/*	--------------------------------------------------
+	:: Multipurpose Buttons Hover / Focus / Active Purple
+	-------------------------------------------------- */
+
+.multipurpose-buttons-widget-purple:hover,
+.multipurpose-buttons-widget-purple:focus,
+.multipurpose-buttons-widget-purple:active {
+    background-color: #e9547e;
+}
+
+/*	--------------------------------------------------
+	:: Multipurpose Buttons Disabled
+	-------------------------------------------------- */
+
+.multipurpose-buttons-widget-blue[disabled],
+.multipurpose-buttons-widget-green[disabled],
+.multipurpose-buttons-widget-red[disabled],
+.multipurpose-buttons-widget-orange[disabled],
+.multipurpose-buttons-widget-purple[disabled] {
+    background-color: #f6f7f9;
+}
+
+    .multipurpose-buttons-widget-blue[disabled] .multipurpose-buttons-widget-media i,
+    .multipurpose-buttons-widget-blue[disabled] .multipurpose-buttons-widget-description h4,
+    .multipurpose-buttons-widget-blue[disabled] .multipurpose-buttons-widget-description p,
+    .multipurpose-buttons-widget-green[disabled] .multipurpose-buttons-widget-media i,
+    .multipurpose-buttons-widget-green[disabled] .multipurpose-buttons-widget-description h4,
+    .multipurpose-buttons-widget-green[disabled] .multipurpose-buttons-widget-description p,
+    .multipurpose-buttons-widget-red[disabled] .multipurpose-buttons-widget-media i,
+    .multipurpose-buttons-widget-red[disabled] .multipurpose-buttons-widget-description h4,
+    .multipurpose-buttons-widget-red[disabled] .multipurpose-buttons-widget-description p,
+    .multipurpose-buttons-widget-orange[disabled] .multipurpose-buttons-widget-media i,
+    .multipurpose-buttons-widget-orange[disabled] .multipurpose-buttons-widget-description h4,
+    .multipurpose-buttons-widget-orange[disabled] .multipurpose-buttons-widget-description p,
+    .multipurpose-buttons-widget-purple[disabled] .multipurpose-buttons-widget-media i,
+    .multipurpose-buttons-widget-purple[disabled] .multipurpose-buttons-widget-description h4,
+    .multipurpose-buttons-widget-purple[disabled] .multipurpose-buttons-widget-description p {
+        text-shadow: none;
+        color: #adbbc5;
+    }

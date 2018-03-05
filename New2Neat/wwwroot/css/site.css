@@ -365,8 +365,20 @@ footer {
     }
 
 /*	--------------------------------------------------
+	:: EMAIL CONFIRMATION
+	-------------------------------------------------- */
+
+.email-confirm-wrapper {
+    padding-bottom: 16rem;
+}
+
+/*	--------------------------------------------------
 	:: Contact-Widget Override Styles
 	-------------------------------------------------- */
+
+.contact-widget-container {
+    margin: 10px auto;
+}
 
 .contact-widget-default.contact-widget-blue .contact-widget-tooltip {
     background-color: #109fca;
@@ -401,6 +413,15 @@ footer {
 
 .contact-widget-default.contact-widget-light .contact-widget-button-success {
     background-color: #467655;
+}
+
+.message-group .message-widget-default.message-widget-green {
+    margin: 5rem;
+}
+
+.message-group .message-widget p {
+    font-weight: bold;
+    font-size: 20px;
 }
 
 /*	--------------------------------------------------
