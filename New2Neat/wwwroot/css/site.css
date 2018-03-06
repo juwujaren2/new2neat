@@ -149,15 +149,15 @@ h5 {
 
 .menu-widget .menu-widget-wrapper .menu-widget-item > a.menu-widget-logo {
     color: #139ac4;
-    font-size: 2.25rem;
+    font-size: 3rem;
     padding: 0 20px;
 }
     .menu-widget .menu-widget-wrapper .menu-widget-item > a.menu-widget-logo i {
-        font-size: 2.25rem;
+        font-size: 2.5rem;
     }
     .menu-widget .menu-widget-wrapper .menu-widget-item > a.menu-widget-logo span {
         color: #ed7066;
-        font-size: 2.625rem;
+        font-size: 3.5rem;
     }
 
 .menu-widget .menu-widget-togglel i {
@@ -255,6 +255,39 @@ header p {
     border: 5px solid #0d9dc7;
 }
 
+.action-wrapper {
+    background-color: #e8f4f8;
+    padding: 15px;
+}
+
+.action-wrapper .info-boxes-widget .info-boxes-widget-description {
+    padding: 5px;
+}
+
+
+.tabs-widget > .tabs-widget-tab > .tabs-widget-section > .tabs-widget-section-content .action-icon {
+    font-size: 20px;
+    color: #4abac5!important;
+}
+
+.request-btn {
+    background: #41a0be;
+    color: #fff;
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding: 6px 10px;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+
+.request-btn:hover {
+    opacity: 0.4;
+}
+
 /*	--------------------------------------------------
 	:: ABOUT SECTION
 	-------------------------------------------------- */
@@ -313,6 +346,10 @@ header p {
         #contact .info-boxes-widget-default.info-boxes-widget-blue .info-boxes-widget-description .info-boxes-widget-media:before {
             box-shadow: 0 0 0 4px #086e8c;
         }
+
+#contact h4, #contact p {
+    color: #fff;
+}
 
 /*	--------------------------------------------------
 	:: FOOTER SECTION
@@ -461,6 +498,14 @@ footer {
 
 .testimonials-widget-default.testimonials-widget-light .testimonials-widget-section blockquote p {
     color: #70828f;
+}
+
+/*	--------------------------------------------------
+	:: Tabs Widget Override Styles
+	-------------------------------------------------- */
+
+.tabs-widget-wrapper {
+    margin: 75px auto;
 }
 
 /*	--------------------------------------------------

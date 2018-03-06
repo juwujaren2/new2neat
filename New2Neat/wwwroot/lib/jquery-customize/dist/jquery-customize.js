@@ -93,7 +93,7 @@
 						$('#reset-widget-button').removeAttr('disabled');
 						$('#contact-widget-notification').fadeIn(500);
 						$('#contact-widget').each(function(){
-							this.reset();
+							this.reset();                            
 						});
 					}
 				});

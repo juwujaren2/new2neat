@@ -27,7 +27,11 @@ namespace New2Neat.Pages
         {
             try
             {
-                await _mailService.Send(Email);
+                if (ModelState.IsValid)
+                {
+                    await _mailService.Send(Email);
+                    ModelState.Clear();
+                }
             }
             catch (Exception ex)
             {
