@@ -211,9 +211,7 @@ header p {
 }
 
 .header-btn:hover {
-    color: #fff;
     opacity: 0.7;
-    text-decoration: none;
 }
 
 .menu-widget .menu-widget-wrapper .menu-widget-item .menu-widget-section {
@@ -285,7 +283,7 @@ header p {
 }
 
 .request-btn:hover {
-    opacity: 0.4;
+    opacity: 0.7;
 }
 
 /*	--------------------------------------------------
@@ -367,9 +365,18 @@ footer {
     }
 
     footer .copyright {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding: 10px 0;
+        text-align: center;
     }
+
+        footer .copyright p a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer .copyright p a:hover {
+            opacity: 0.7;
+        }
 
 /*	--------------------------------------------------
 	:: SCROLL TO TOP BUTTON
@@ -513,11 +520,6 @@ footer {
 	-------------------------------------------------- */
 
 @media only screen and (max-width: 412px) and (min-width: 320px) {
-    /*.main-header {
-        background: url('../images/homepage-sm.png');
-        background-size: cover;
-        height: auto;
-    }*/
 
     .header-contact {
         display: none;
@@ -555,10 +557,6 @@ footer {
         font-size: 0.85rem;
         margin: 30px 0;
         padding: 6px 10px;
-    }
-
-    footer .copyright {
-        text-align: center;
     }
 }
 
